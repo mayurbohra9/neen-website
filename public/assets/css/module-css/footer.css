@@ -1,0 +1,443 @@
+
+/** main-footer **/
+
+.main-footer{
+  position: relative;
+  background: #141414;
+}
+
+.footer-bottom{
+  position: relative;
+  padding: 57.5px 0px;
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.07);
+}
+
+.footer-bottom .bottom-inner{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-bottom .copyright p{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.40);
+}
+
+.footer-bottom .copyright p span{
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.footer-bottom .social-links{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom .social-links li{
+  position: relative;
+  margin-right: 30px;
+}
+
+.footer-bottom .social-links li:last-child{
+  margin: 0px !important;
+}
+
+.footer-bottom .social-links li:before{
+  position: absolute;
+  content: '';
+  background: rgba(255, 255, 255, 0.40);
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  top: 14px;
+  right: -17px;
+}
+
+.footer-bottom .social-links li:last-child:before{
+  display: none;
+}
+
+.footer-bottom .social-links li a{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.40);
+}
+
+.footer-bottom .social-links li a:hover{
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-bottom-two{
+  position: relative;
+}
+
+.footer-bottom-two .bottom-inner{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 0px;
+}
+
+.footer-bottom-two .copyright p{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.footer-bottom-two .copyright p span{
+  color: rgba(0, 0, 0, 0.40);
+}
+
+.footer-bottom-two .copyright p a{
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.footer-bottom-two .copyright p a:hover{
+
+}
+
+.footer-bottom-two .footer-menu{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-two .footer-menu li{
+  display: inline-block;
+  margin-right: 38px;
+}
+
+.footer-bottom-two .footer-menu li:last-child{
+  margin: 0px !important;
+}
+
+.footer-bottom-two .footer-menu li a{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.40);
+}
+
+.footer-bottom-two .footer-menu li a:hover{
+  color: rgba(0, 0, 0, 1);
+}
+
+.main-footer.home-4{
+  background: #FBF5F1;
+}
+
+.main-footer.home-4 .footer-bottom .copyright p{
+  color: var(--title-color);
+}
+
+.main-footer.home-4 .footer-bottom .social-links li a{
+  color: var(--title-color);
+}
+
+.main-footer.home-4 .footer-bottom .social-links li:before{
+  background: var(--secondary-color);
+}
+
+.main-footer.home-4 .footer-bottom .social-links li a:hover{
+
+}
+
+.main-footer.home-4 .footer-bottom{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+/** footer-style **/
+
+.footer-style{
+  position: relative;
+  padding: 137px 0px 140px 0px;
+}
+
+.footer-style .outer-container{
+  position: relative;
+  max-width: 1580px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-style .footer-logo{
+  position: relative;
+  display: block;
+}
+
+.footer-style .footer-logo-light{
+  position: relative;
+  display: none;
+}
+
+.footer-style .logo-widget{
+  position: relative;
+  display: block;
+}
+
+.footer-style .logo-widget h2{
+  position: relative;
+  display: block;
+  max-width: 600px;
+  font-size: 64px;
+  line-height: 74px;
+  font-weight: 500;
+}
+
+.footer-style .logo-widget .copyright p{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.40);
+}
+
+.footer-style .logo-widget .copyright p span{
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-style .logo-widget h2:before{
+  position: absolute;
+  content: '';
+  background-image: url(../../images/shape/shape-73.png);
+  width: 34px;
+  height: 34px;
+  top: 50%;
+  right: -100px;
+  margin-top: -17px;
+}
+
+.footer-style .contact-widget .footer-menu{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.footer-style .contact-widget .footer-menu li{
+  position: relative;
+  display: inline-block;
+  margin-right: 42px;
+}
+
+.footer-style .contact-widget .footer-menu li:before{
+  position: absolute;
+  content: '';
+  background: rgba(0, 0, 0, 0.30);
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  right: -23px;
+  bottom: 12px;
+}
+
+.footer-style .contact-widget .footer-menu li:last-child:before{
+  display: none;
+}
+
+.footer-style .contact-widget .footer-menu li:last-child{
+  margin: 0px !important;
+}
+
+.footer-style .contact-widget .footer-menu li a{
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.30);
+}
+
+.footer-style .contact-widget .footer-menu li a:hover{
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-style .contact-widget .footer-menu li:before{
+
+}
+
+.footer-style .contact-widget .inner-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-style .contact-widget .inner-box p{
+  font-size: 24px;
+  line-height: 40px;
+  color: var(--title-color);
+}
+
+.footer-style .contact-widget .form-inner span{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.50);
+  margin-bottom: 15px;
+}
+
+.footer-style .contact-widget .form-inner .form-group{
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.footer-style .contact-widget .form-inner .form-group input[type='email']{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 64px;
+  font-size: 30px;
+  color: var(--title-color);
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: var(--secondary-color);
+  padding-right: 70px;
+  transition: all 500ms ease;
+}
+
+.footer-style .contact-widget .form-inner .form-group input:focus{
+
+}
+
+.footer-style .contact-widget .form-inner .form-group button[type='submit']{
+  position: absolute;
+  display: inline-block;
+  right: 0px;
+  bottom: 8px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  background: var(--secondary-color);
+  transition: all 500ms ease;
+}
+
+.footer-style .contact-widget .form-inner .form-group input:focus + button,
+.footer-style .contact-widget .form-inner .form-group button:hover{
+  
+}
+
+.footer-sliding-text{
+  background: #F6F6F6;
+}
+
+.footer-sliding-text .slide-text-box{
+  background: transparent;
+}
+
+.footer-style.light-section .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.footer-style.light-section .bg-layer:before{
+  position: absolute;
+  content: '';
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.77) 50%, rgba(0, 0, 0, 0.70) 100%);
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-style.light-section .logo-widget h2{
+  font-family: 'Playfire Display', serif;
+  color: #fff;
+}
+
+.footer-style.light-section .logo-widget .copyright p{
+  color: rgba(255, 255, 255, 0.50)
+}
+
+.footer-style.light-section .logo-widget .copyright p span{
+  color: #fff;
+}
+
+.footer-style.light-section .logo-widget h2:before {
+  background-image: url(../../images/shape/shape-74.png);
+}
+
+.footer-style.light-section .contact-widget .form-inner .form-group input[type='email']{
+  color: #fff;
+  border-color: #fff;
+}
+
+.footer-style.light-section .contact-widget .form-inner .form-group button[type='submit']{
+  background: transparent;
+}
+
+.footer-style.light-section .contact-widget .inner-box p{
+  color: rgba(255, 255, 255, 0.60);
+}
+
+.footer-style.light-section .social-style-one li a{
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #fff !important;
+}
+
+.footer-style.light-section .social-style-one li a:hover{
+  color: var(--title-color);
+  background: #E7D0BB;
+  border-color: #E7D0BB;
+}
+
+.footer-style.light-section .contact-widget .footer-menu li a{
+  color: rgba(255, 255, 255, 0.30);
+}
+
+.footer-style.light-section .contact-widget .footer-menu li:before{
+  background: rgba(255, 255, 255, 0.30);
+}
+
+.footer-style.light-section .contact-widget .footer-menu li a:hover{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
