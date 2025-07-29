@@ -47,7 +47,7 @@ export default function Service_Details_one() {
                                         <h2>UI/UX & Visual Content</h2>
                                         <p>Sketch Noting, Visual Reports</p>
                                     </div>
-                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/service-4.jpg" alt=""/></figure> */}
+                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
                                     <div className="text-box mb_50">
                                         <p>Your data and ideas deserve to be communicated effectively. We specialize in transforming complex information into visually rich experiences—be it through sketch noting, infographics, or interactive dashboards. Our UI/UX and visual content services aim to simplify, beautify, and elevate every user’s interaction. Whether for internal presentations, client pitches, or public communications, we ensure your visual material is both informative and emotionally resonant. Our team balances aesthetics with functionality using research-backed design principles. From mobile-first UI design to animated explainer graphics, we craft visuals that captivate and inform.</p>
                                     </div>
@@ -123,13 +123,13 @@ export default function Service_Details_one() {
                                     <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-168.png)" }}></div>
                                     <h3>Services</h3>
                                     <ul className="category-list clearfix">
-                                        <li><Link href="/service-1">Custom Research & Consulting</Link></li>
-                        <li><Link href="/service-2">Academic & Writing Services</Link></li>
-                        <li><Link href="/service-3">Data-driven Strategy & Reports</Link></li>
-                        <li><Link href="/service-4">Marketing Insights & Evaluation</Link></li>
-                        <li><Link href="/service-5">UI/UX & Visual Content</Link></li>
-                        <li><Link href="/service-6">Patent & IP Solutions</Link></li>
-                        <li><Link href="/service-7">Website & App Development</Link></li>
+                                        <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
+                        <li><Link href="/academic-&-writing-services-service">Academic & Writing Services</Link></li>
+                        <li><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports</Link></li>
+                        <li><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
+                        <li><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                        <li><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
+                        <li><Link href="/website-&-app-development-service">Website & App Development</Link></li>
                                     </ul>
                                 </div>
                                 <div className="contact-widget">

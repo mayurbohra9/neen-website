@@ -376,8 +376,8 @@
 .news-section .title-text h2{
   position: relative;
   display: block;
-  font-size: 180px;
-  line-height: 200px;
+  font-size: 80px;
+  /* line-height: 200px; */
   font-family: 'Gambetta', serif;
   font-weight: 500;
   text-transform: uppercase;

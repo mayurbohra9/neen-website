@@ -25,7 +25,7 @@ export default function Blog_Details() {
                                     </div>
                                     <div className="image-box mb_50">
                                         <span className="post-date">01 Jul 2025</span>
-                                        <figure className="image"><img src="assets/images/news/news-27.jpg" alt=""/></figure>
+                                        <figure className="image"><img src="assets/images/resource/blog-1.2.png" alt=""/></figure>
                                     </div>
                                     <div className="text-box">
                                         <p>In today’s dynamic and highly competitive business environment, the power of informed decision-making cannot be overstated. Market research plays a pivotal role in shaping strategies, minimizing risks, and uncovering emerging opportunities. It provides a structured way of gathering, analyzing, and interpreting data related to a particular market, including insights about target audiences, competitors, industry trends, and customer behavior. Businesses—whether startups or industry giants—rely on well-executed research to understand where their products or services stand and how they can innovate to meet real-world demands.</p>

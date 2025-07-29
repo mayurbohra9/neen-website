@@ -82,6 +82,16 @@
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .our_process-style-six .block-one .image-box{
+  position: absolute;
+  left: 30px;
+  bottom: 200px;
+  width: 100%;
+  text-align: center;
+}
+}
+
 .our_process-style-six .block-one .shape{
   position: absolute;
   left: 0px;

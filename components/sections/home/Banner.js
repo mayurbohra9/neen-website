@@ -103,12 +103,12 @@ export default function Banner(){
                 </SwiperSlide>
             </Swiper>
             <ul className="social-links">
-                <li><span>Follow - </span></li>
+                <li><span>Follow - &nbsp;</span></li>
                 <li><Link href="https://www.linkedin.com/company/neen-innovations/" target="_blank">LinkedIn</Link></li>
                 {/* <li>/</li>
-                <li><Link href="#">Twitter</Link></li>
-                <li>/</li>
-                <li><Link href="#">Instagram</Link></li> */}
+                <li><Link href="#">Twitter</Link></li>*/}
+                <li> &nbsp; / &nbsp;</li>
+                <li><Link href="https://www.instagram.com/neeninnovations/" target='_blank'>Instagram</Link></li>
             </ul>
             <span className="big-text">Agency</span>
         </section>

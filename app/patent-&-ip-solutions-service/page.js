@@ -44,45 +44,45 @@ export default function Service_Details_one() {
                             <div className="service-details-content mr_130">
                                 <div className="content-one mb_70">
                                     <div className="upper-text mb_40">
-                                        <h2>Custom Research & Consulting</h2>
-                                        <p>Market Study & Intelligence</p>
+                                        <h2>Patent & IP Solutions</h2>
+                                        <p>Prior Art & Patent Analysis</p>
                                     </div>
-                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/service-4.jpg" alt=""/></figure> */}
+                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
                                     <div className="text-box mb_50">
-                                        <p>In today’s rapidly changing markets, having access to tailored, accurate, and actionable intelligence is more important than ever. Our custom research and consulting services are designed to meet your unique business needs, providing strategic insights that align with your objectives. Whether you’re entering a new market, assessing customer behavior, or benchmarking competitors, we build data-driven solutions from the ground up. Our team of expert analysts collaborates closely with clients, combining primary research with secondary data to uncover opportunities and risks. We help you define key questions, determine the best methodologies, and interpret findings to support growth strategies. With a focus on clarity, depth, and real-world relevance, we deliver reports and recommendations that empower informed decision-making.</p>
+                                        <p>Intellectual property can define your business edge—if protected and managed wisely. Our Patent & IP Solutions include patent landscape reports, prior art searches, patentability assessments, and infringement risk evaluations. We serve innovators, startups, universities, and legal teams with precise technical and legal insights. Our experts use globally trusted databases to uncover existing patents, evaluate uniqueness, and support patent drafting. We bridge the gap between innovation and IP protection by providing advisory across technical fields. Our reports help you file with confidence, avoid legal hurdles, and maximize the value of your IP.</p>
                                     </div>
                                     <h3>Our Goal</h3>
                                     <ul className="list-style-one clearfix">
-                                        <li>Deliver actionable insights tailored to specific client goals</li>
-                                        <li>Enable smarter decisions through focused market intelligence</li>
-                                        <li>Build long-term consulting partnerships</li>
+                                        <li>Help protect innovations through smart IP strategy</li>
+                                        <li>Ensure novelty and reduce infringement risk</li>
+                                        <li>Assist in global patent filing preparation</li>
                                     </ul>
                                 </div>
                                 <div className="content-two mb_70">
                                     <div className="text-box mb_40">
                                         <h2>Work Process</h2>
-                                        <p>Commonly used by businesses to gain clarity on market shifts, consumer behavior, and industry trends through tailored studies and strategic consulting.</p>
+                                        <p>Empowering innovators by providing research, prior-art analysis, and legal insights for patent-related needs.</p>
                                     </div>
                                     <div className="row clearfix">
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-44"></i></div>
                                                 <h3>Collect Doc</h3>
-                                                <p>We understand your business case and identify data points.</p>
+                                                <p>Understand your innovation and technical scope.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-45"></i></div>
                                                 <h3>Check & Finalize</h3>
-                                                <p>We analyze data, sources, and create insight frameworks.</p>
+                                                <p>Search, analyze, and assess patent data.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-46"></i></div>
                                                 <h3>Completed</h3>
-                                                <p>Deliver comprehensive reports with recommendations.</p>
+                                                <p>Submit patent landscape or prior art report.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,22 +93,22 @@ export default function Service_Details_one() {
                                         <li className="accordion block">
                                             <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>How do you customize your research for different industries?</h3>
+                                                <h3>Do you help with drafting patent claims?</h3>
                                             </div>
                                             <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>We adapt our methodologies, sources, and frameworks based on your sector's specifics and business objectives.</p>
+                                                    <p>We provide structure and references to assist with claim drafting.</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="accordion block">
                                             <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>Can I request ongoing consultation after the final report?</h3>
+                                                <h3>Are your reports valid internationally?</h3>
                                             </div>
                                             <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>Absolutely. We offer extended consulting engagements post-delivery.</p>
+                                                    <p>Yes, we follow WIPO, USPTO, EPO and other standards.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -123,13 +123,13 @@ export default function Service_Details_one() {
                                     <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-168.png)" }}></div>
                                     <h3>Services</h3>
                                     <ul className="category-list clearfix">
-                                        <li><Link href="/service-1">Custom Research & Consulting</Link></li>
-                                        <li><Link href="/service-2">Academic & Writing Services</Link></li>
-                                        <li><Link href="/service-3">Data-driven Strategy & Reports</Link></li>
-                                        <li><Link href="/service-4">Marketing Insights & Evaluation</Link></li>
-                                        <li><Link href="/service-5">UI/UX & Visual Content</Link></li>
-                                        <li><Link href="/service-6">Patent & IP Solutions</Link></li>
-                                        <li><Link href="/service-7">Website & App Development</Link></li>
+                                         <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
+                        <li><Link href="/academic-&-writing-services-service">Academic & Writing Services</Link></li>
+                        <li><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports</Link></li>
+                        <li><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
+                        <li><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                        <li><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
+                        <li><Link href="/website-&-app-development-service">Website & App Development</Link></li>
                                     </ul>
                                 </div>
                                 <div className="contact-widget">

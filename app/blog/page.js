@@ -20,7 +20,7 @@ export default function Blog() {
                             <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                 <div className="news-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details-1"><img src="assets/images/news/news-5.jpg" alt=""/></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details-1"><img src="assets/images/resource/blog-1.2.png" alt=""/></Link></figure>
                                         <div className="lower-content">
                                             <ul className="post-info mb_14">
                                                 <li>01 Jul 2025</li>
@@ -34,7 +34,7 @@ export default function Blog() {
                             <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                 <div className="news-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details-2"><img src="assets/images/news/news-6.jpg" alt=""/></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details-2"><img src="assets/images/resource/blog-2.2.jpg" alt=""/></Link></figure>
                                         <div className="lower-content">
                                             <ul className="post-info mb_14">
                                                 <li>20 Feb 2025</li>
@@ -48,7 +48,7 @@ export default function Blog() {
                             <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                 <div className="news-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details-3"><img src="assets/images/news/news-7.jpg" alt=""/></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details-3"><img src="assets/images/resource/blog-3.2.jpeg" alt=""/></Link></figure>
                                         <div className="lower-content">
                                             <ul className="post-info mb_14">
                                                 <li>10 May 2025</li>

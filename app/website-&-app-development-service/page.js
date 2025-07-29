@@ -44,45 +44,45 @@ export default function Service_Details_one() {
                             <div className="service-details-content mr_130">
                                 <div className="content-one mb_70">
                                     <div className="upper-text mb_40">
-                                        <h2>Marketing Insights & Evaluation</h2>
-                                        <p>Competitor Analysis & Landscape</p>
+                                        <h2>Website & App Development</h2>
+                                        <p>Intuitive, Attractive, Engaging</p>
                                     </div>
-                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/service-4.jpg" alt=""/></figure> */}
+                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
                                     <div className="text-box mb_50">
-                                        <p>Stay ahead of the curve by understanding your market, competitors, and consumer behavior better than anyone else. We offer deep-dive marketing evaluations that go beyond basic metrics to give you the full picture. From SWOT analysis to market share tracking, pricing studies, and trend monitoring, our insights help optimize campaigns and brand positioning. We gather real-time and historical data from trusted sources to build a solid competitive landscape. Whether launching a product or rebranding, our marketing evaluations are your strategic advantage. We translate numbers into narratives that guide promotional tactics, budget allocation, and audience targeting.</p>
+                                        <p>Your digital presence defines your brand in the modern era. We create custom websites and apps that are functional, beautiful, and user-friendly. Our development team collaborates with clients to understand user personas, journeys, and platform goals. We prioritize responsiveness, loading speed, and accessibility in every build. From e-commerce platforms to learning management systems and mobile-first apps, we design and code with purpose. Each interface is built to engage users, reflect your brand, and drive business objectives. We also offer CMS integration, backend development, and post-launch support to ensure long-term success.</p>
                                     </div>
                                     <h3>Our Goal</h3>
                                     <ul className="list-style-one clearfix">
-                                        <li>Empower your brand through competitor intelligence</li>
-                                        <li>Identify gaps and opportunities in your market</li>
-                                        <li>Support optimized marketing decision-making</li>
+                                        <li>Build sleek, responsive websites and apps</li>
+                                        <li>Optimize usability and visual appeal</li>
+                                        <li>Provide scalable, secure, maintainable platforms</li>
                                     </ul>
                                 </div>
                                 <div className="content-two mb_70">
                                     <div className="text-box mb_40">
                                         <h2>Work Process</h2>
-                                        <p>Designed to help brands decode market trends, competitor performance, and audience behavior with clarity.</p>
+                                        <p>We offer user-first development that reflects your research goals, builds trust, and ensures smooth digital experience.</p>
                                     </div>
                                     <div className="row clearfix">
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-44"></i></div>
                                                 <h3>Collect Doc</h3>
-                                                <p>Define target markets, competitors, and objectives.</p>
+                                                <p>Gather goals, user needs, and preferred features.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-45"></i></div>
                                                 <h3>Check & Finalize</h3>
-                                                <p>Analyze trends, segments, and strategic gaps.</p>
+                                                <p>Wireframe, develop, test, and iterate.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-46"></i></div>
                                                 <h3>Completed</h3>
-                                                <p>Provide actionable marketing report and advisory.</p>
+                                                <p>Deploy live site/app with maintenance guide.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,22 +93,22 @@ export default function Service_Details_one() {
                                         <li className="accordion block">
                                             <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>Do you analyze social media presence as part of competitor analysis?</h3>
+                                                <h3>How do you customize your research for different industries?</h3>
                                             </div>
                                             <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>Yes, we evaluate digital footprint, engagement, and campaign effectiveness.</p>
+                                                    <p>We adapt our methodologies, sources, and frameworks based on your sector's specifics and business objectives.</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="accordion block">
                                             <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>Can you evaluate offline and online strategies together?</h3>
+                                                <h3>Can I request ongoing consultation after the final report?</h3>
                                             </div>
                                             <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>Absolutely. We offer hybrid channel analysis.</p>
+                                                    <p>Absolutely. We offer extended consulting engagements post-delivery.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -123,13 +123,13 @@ export default function Service_Details_one() {
                                     <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-168.png)" }}></div>
                                     <h3>Services</h3>
                                     <ul className="category-list clearfix">
-                                        <li><Link href="/service-1">Custom Research & Consulting</Link></li>
-                        <li><Link href="/service-2">Academic & Writing Services</Link></li>
-                        <li><Link href="/service-3">Data-driven Strategy & Reports</Link></li>
-                        <li><Link href="/service-4">Marketing Insights & Evaluation</Link></li>
-                        <li><Link href="/service-5">UI/UX & Visual Content</Link></li>
-                        <li><Link href="/service-6">Patent & IP Solutions</Link></li>
-                        <li><Link href="/service-7">Website & App Development</Link></li>
+                                         <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
+                                        <li><Link href="/academic-&-writing-services-service">Academic & Writing Services</Link></li>
+                                        <li><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports</Link></li>
+                                        <li><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
+                                        <li><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                                        <li><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
+                                        <li><Link href="/website-&-app-development-service">Website & App Development</Link></li>
                                     </ul>
                                 </div>
                                 <div className="contact-widget">

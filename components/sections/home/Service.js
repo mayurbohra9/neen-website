@@ -20,18 +20,18 @@ export default function Service(){
                                         <div className="inner-box">
                                             <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-56.png)" }}></div>
                                             <span className="count-text">01</span>
-                                            <h3><Link href="/service-1">Custom Research & Consulting.</Link></h3>
+                                            <h3><Link href="/custom-research-&-consulting-service">Custom Research & Consulting.</Link></h3>
                                             <p>Market Study & Intelligence</p>
-                                            <div className="link"><Link href="/service-1"><i className="icon-1"></i></Link></div>
+                                            <div className="link"><Link href="/custom-research-&-consulting-service"><i className="icon-1"></i></Link></div>
                                             
                                         </div>
 
                                         <div className="inner-box">
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-57.png)" }}></div>
                                 <span className="count-text">02</span>
-                                <h3><Link href="/service-3">Data-driven Strategy & Reports.</Link></h3>
+                                <h3><Link href="/data-driven-strategy-&-reports-service">Data-driven Strategy & Reports.</Link></h3>
                                 <p>Feasibility, M&A, Tech Profiling</p>
-                                <div className="link"><Link href="/service-3"><i className="icon-1"></i></Link></div>
+                                <div className="link"><Link href="/data-driven-strategy-&-reports-service"><i className="icon-1"></i></Link></div>
                             </div>
                                     </div>
                                 </div>
@@ -41,9 +41,9 @@ export default function Service(){
                                     <div className="inner-box">
                                         <span className="count-text">03</span>
                                         <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-58.png)" }}></div>
-                                        <h3><Link href="/service-2">Academic & Writing Services.</Link></h3>
+                                        <h3><Link href="/academic-&-writing-services-service">Academic & Writing Services.</Link></h3>
                                         <p>Thesis, Dissertation, Research Writing</p>
-                                        <div className="link"><Link href="/service-2"><i className="icon-1"></i></Link></div>
+                                        <div className="link"><Link href="/academic-&-writing-services-service"><i className="icon-1"></i></Link></div>
                                         <figure className="vector-image"><img src="assets/images/resource/vector-1.png" alt=""/></figure>
                                         <figure className="vector-image-2"><img src="assets/images/resource/vector-2.png" alt=""/></figure>
                                     </div>
@@ -51,9 +51,9 @@ export default function Service(){
                                     <div className="inner-box">
                                 <span className="count-text">04</span>
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-58.png)" }}></div>
-                                <h3><Link href="/service-4">Marketing Insights & Evaluation.</Link></h3>
+                                <h3><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation.</Link></h3>
                                 <p>Competitor Analysis & Landscape</p>
-                                <div className="link"><Link href="/service-4"><i className="icon-1"></i></Link></div>
+                                <div className="link"><Link href="/marketing-insights-&-evaluation-service"><i className="icon-1"></i></Link></div>
                                 
                             </div>
                         
@@ -66,26 +66,26 @@ export default function Service(){
                             <div className="inner-box">
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-57.png)" }}></div>
                                 <span className="count-text">05</span>
-                                <h3><Link href="/service-5">UI/UX & Visual Content.</Link></h3>
+                                <h3><Link href="/ui-ux-&-visual-content-service">UI/UX & Visual Content.</Link></h3>
                                 <p>Sketch Noting, Visual Reports</p>
-                                <div className="link"><Link href="/service-5"><i className="icon-1"></i></Link></div>
+                                <div className="link"><Link href="/ui-ux-&-visual-content-service"><i className="icon-1"></i></Link></div>
                             </div>
                         </div>
                         <div className="service-block-two" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                             <div className="inner-box">
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-58.png)" }}></div>
                                 <span className="count-text">06</span>
-                                <h3><Link href="/service-6">Patent & IP Solutions.</Link></h3>
+                                <h3><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions.</Link></h3>
                                 <p>Prior Art & Patent Analysis</p>
-                                <div className="link"><Link href="/service-6"><i className="icon-1"></i></Link></div>
+                                <div className="link"><Link href="/patent-&-ip-solutions-service"><i className="icon-1"></i></Link></div>
                                 
                             </div>
                             <div className="inner-box">
                                 <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-56.png)" }}></div>
                                 <span className="count-text">07</span>
-                                <h3><Link href="/service-7">Website & App Development.</Link></h3>
+                                <h3><Link href="/website-&-app-development-service">Website & App Development.</Link></h3>
                                 <p>Intuitive, Attractive, Engaging</p>
-                                <div className="link"><Link href="/service-7"><i className="icon-1"></i></Link></div>
+                                <div className="link"><Link href="/website-&-app-development-service"><i className="icon-1"></i></Link></div>
                                 
                             </div>
                         </div>

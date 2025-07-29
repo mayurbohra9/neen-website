@@ -32,20 +32,20 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                 <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/index-5">Home</Link></li>
                                 <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/about-4">About</Link></li>
                                 {/* <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link href="/portfolio-4">Work</Link></li> */}
-                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/service-4">Service</Link>
+                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/marketing-insights-&-evaluation-service">Services</Link>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                                        <li><Link href="/service-1">Custom Research & Consulting</Link></li>
-                                        <li><Link href="/service-2">Academic & Writing Services</Link></li>
-                                        <li><Link href="/service-3">Data-driven Strategy & Reports</Link></li>
-                                        <li><Link href="/service-4">Marketing Insights & Evaluation</Link></li>
-                                        <li><Link href="/service-5">UI/UX & Visual Content</Link></li>
-                                        <li><Link href="/service-6">Patent & IP Solutions</Link></li>
-                                        <li><Link href="/service-7">Website & App Development</Link></li>
+                                        <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
+                                        <li><Link href="/academic-&-writing-services-service">Academic & Writing Services</Link></li>
+                                        <li><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports</Link></li>
+                                        <li><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
+                                        <li><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                                        <li><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
+                                        <li><Link href="/website-&-app-development-service">Website & App Development</Link></li>
                                          
                                     </ul>
                                     <div className={isActive.key == 4 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(4)}><span className="fa fa-angle-right" /></div>
                                 </li>
-                                <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}><Link href="/blog">Blog</Link>
+                                <li className={isActive.key == 5 ? "dropdown current" : "dropdown"}><Link href="/blog">Blogs</Link>
                                     {/* <ul style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
                                         <li><Link href="/blog-details">Blog Details</Link></li>
                                     </ul>

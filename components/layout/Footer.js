@@ -18,7 +18,7 @@ export default function Footer() {
                         <div className="footer-widget contact-widget ml_150" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="700">
                             <ul className="footer-menu mb_70">
                                 <li><Link href="/about">About</Link></li>
-                                <li><Link href="/service">Service</Link></li>
+                                <li><Link href="/services">Service</Link></li>
                                 <li><Link href="/blog">Blog</Link></li>
                                 <li><Link href="/contact">Contact</Link></li>
                             </ul>
@@ -27,8 +27,8 @@ export default function Footer() {
                                 <ul className="social-style-one">
                                     {/* <li><Link href="/index-5">Tw</Link></li> */}
                                     {/* <li><Link href="/index-5">Fb</Link></li> */}
-                                    <li><Link href="https://www.linkedin.com/company/neen-innovations/" target="_blank">In</Link></li>
-                                    {/* <li><Link href="/index-5">Li</Link></li> */}
+                                    <li><Link href="https://www.linkedin.com/company/neen-innovations/" target="_blank">Li</Link></li>
+                                    <li><Link href="https://www.instagram.com/neeninnovations/">In</Link></li>
                                 </ul>
                             </div>
                             {/* <div className="form-inner">

@@ -25,7 +25,7 @@ export default function Blog_Details() {
                                     </div>
                                     <div className="image-box mb_50">
                                         <span className="post-date">10 May 2025</span>
-                                        <figure className="image"><img src="assets/images/news/news-27.jpg" alt=""/></figure>
+                                        <figure className="image"><img src="assets/images/resource/blog-3.2.jpeg" alt=""/></figure>
                                     </div>
                                     <div className="text-box">
                                         <p>Visual communication has transcended traditional boundaries, becoming central to how users experience brands online. UI (User Interface) and UX (User Experience) design, coupled with compelling visual content, create the emotional bridge between digital platforms and their audiences. In a digital-first world, design isn't just about making things look good—it’s about making them work beautifully.</p>

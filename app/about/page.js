@@ -70,7 +70,7 @@ export default function About() {
                                 <div className="inner-box">
                                     <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-56.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/service-1">Custom Research & Consulting.</Link></h3>
+                                    <h3><Link href="/custom-research-&-consulting-service">Custom Research & Consulting.</Link></h3>
                                     <p>Market Study & Intelligence</p>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ export default function About() {
                                 <div className="inner-box">
                                     <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-58.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/service-2">Academic & Writing Services.</Link></h3>
+                                    <h3><Link href="/academic-&-writing-services-service">Academic & Writing Services.</Link></h3>
                                     <p>Thesis, Dissertation, Research</p>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ export default function About() {
                                 <div className="inner-box">
                                     <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-57.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/service-3">Data-driven Strategy & Reports.</Link></h3>
+                                    <h3><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports.</Link></h3>
                                     <p>Feasibility, M&A, Tech Profiling</p>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ export default function About() {
                                 <div className="inner-box">
                                     <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-57.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/service-4">Marketing Insights & Evaluation.</Link></h3>
+                                    <h3><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation.</Link></h3>
                                     <p>Competitor Analysis & Landscape</p>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ export default function About() {
                                 <div className="inner-box">
                                     <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-56.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/service-5">UI/UX & Visual Content.</Link></h3>
+                                    <h3><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content.</Link></h3>
                                     <p>Sketch Noting, Visual Reports</p>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ export default function About() {
                                 <div className="inner-box">
                                     <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-58.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/service-6">Patent & IP Solutions.</Link></h3>
+                                    <h3><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions.</Link></h3>
                                     <p>Prior Art & Patent Analysis</p>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ export default function About() {
                                 <div className="inner-box">
                                     <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-58.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/service-7">Website & App Development.</Link></h3>
+                                    <h3><Link href="/website-&-app-development-service">Website & App Development.</Link></h3>
                                     <p>Intuitive, Attractive, Engaging</p>
                                 </div>
                             </div>

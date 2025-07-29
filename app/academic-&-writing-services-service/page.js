@@ -47,7 +47,7 @@ export default function Service_Details_one() {
                                         <h2>Academic & Writing Services</h2>
                                         <p>Thesis, Dissertation, Research</p>
                                     </div>
-                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/service-4.jpg" alt=""/></figure> */}
+                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
                                     <div className="text-box mb_50">
                                         <p>We support scholars and researchers in crafting impactful academic content—be it a thesis, dissertation, or full-fledged research project. Our academic writing services are rooted in rigor, originality, and clarity. We work collaboratively with clients from ideation to defense, ensuring proper formatting, citation styles, and alignment with institutional guidelines. Our team helps in developing research questions, literature review, methodology design, data interpretation, and conclusion structuring. All content is plagiarism-free, peer-reviewed, and tailored for academic excellence. Whether you're pursuing a Master’s, PhD, or journal publication, we ensure your work stands out academically and intellectually. We respect academic deadlines and offer mentoring for oral defense preparations too.</p>
                                     </div>
@@ -123,13 +123,13 @@ export default function Service_Details_one() {
                                     <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-168.png)" }}></div>
                                     <h3>Services</h3>
                                     <ul className="category-list clearfix">
-                                         <li><Link href="/service-1">Custom Research & Consulting</Link></li>
-                                        <li><Link href="/service-2">Academic & Writing Services</Link></li>
-                                        <li><Link href="/service-3">Data-driven Strategy & Reports</Link></li>
-                                        <li><Link href="/service-4">Marketing Insights & Evaluation</Link></li>
-                                        <li><Link href="/service-5">UI/UX & Visual Content</Link></li>
-                                        <li><Link href="/service-6">Patent & IP Solutions</Link></li>
-                                        <li><Link href="/service-7">Website & App Development</Link></li>
+                                         <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
+                                        <li><Link href="/academic-&-writing-services-service">Academic & Writing Services</Link></li>
+                                        <li><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports</Link></li>
+                                        <li><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
+                                        <li><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                                        <li><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
+                                        <li><Link href="/website-&-app-development-service">Website & App Development</Link></li>
                                     </ul>
                                 </div>
                                 <div className="contact-widget">

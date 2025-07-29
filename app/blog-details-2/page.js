@@ -25,7 +25,7 @@ export default function Blog_Details() {
                                     </div>
                                     <div className="image-box mb_50">
                                         <span className="post-date">20 Feb 2025</span>
-                                        <figure className="image"><img src="assets/images/news/news-27.jpg" alt=""/></figure>
+                                        <figure className="image"><img src="assets/images/resource/blog-2.2.jpg" alt=""/></figure>
                                     </div>
                                     <div className="text-box">
                                         <p>In an era where the first impression of a brand is often digital, having a powerful online presence is not just an option—it's a necessity. Website and app development has evolved from simple coding tasks into a strategic process that bridges business goals with seamless user experiences. The development of an intuitive website or mobile application lays the foundation for customer engagement, sales conversions, and brand loyalty.</p>
