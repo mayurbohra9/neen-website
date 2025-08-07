@@ -240,23 +240,6 @@
   padding: 28px 160px 29px 60px;
 }
 
-/* @media screen and (max-width: 767px) {
-
-  .about-style .content-box .link-box{
-      border-radius: 80px !important;
-      padding: 20px 10px;
-  }
-
-  
-.about-style .content-box .link-box h2{
-  font-size: 20px !important;
-}
-
-.about-style .content-box .link-box link{
-  width: 20px !important;
-}
-
-} */
 
 .about-style .content-box .link-box h2{
   position: relative;
