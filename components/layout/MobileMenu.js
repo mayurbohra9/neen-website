@@ -51,7 +51,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                     </ul>
                                     <div className={isActive.key == 5 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></div> */}
                                 </li>
-                                <li><Link href="/contact">Contact Us</Link></li>
+                                <li><Link href="/contact">Contact</Link></li>
                             </ul>
                         </div>
 
