@@ -23,7 +23,9 @@ export default function Footer() {
                                 <li><Link href="/contact">Contact</Link></li>
                             </ul>
                             <div className="inner-box mb_70">
-                                <p>Mumbai, Maharashtra <br />India</p>
+                                <p>Mumbai, Maharashtra India,<br />
+                                +91 85917 50589, <br />neeninnovations@gmail.com
+                                </p>
                                 <ul className="social-style-one">
                                     {/* <li><Link href="/index-5">Tw</Link></li> */}
                                     {/* <li><Link href="/index-5">Fb</Link></li> */}

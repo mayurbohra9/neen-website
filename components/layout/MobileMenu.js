@@ -61,8 +61,8 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                         <h4>Contact Info</h4>
                         <ul>
                             <li>Mumbai, Maharashtra, India</li>
-                            <li><Link href="tel:+91 00000 00000">+91 00000 00000</Link></li>
-                            <li><Link href="mailto:example@example.com">example@example.com</Link></li>
+                            <li><Link href="tel:+91 85917 50589">+91 85917 50589</Link></li>
+                            <li><Link href="mailto:neeninnovations@gmail.com">neeninnovations@gmail.com</Link></li>
                         </ul>
                     </div>
                 </nav>
