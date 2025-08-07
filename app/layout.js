@@ -9,10 +9,10 @@ import 'swiper/css'
 import "swiper/css/pagination"
 import 'swiper/css/free-mode'
 import {Outfit_title } from '@/lib/font'
-export const metadata = {
-    title: 'Neen Inovations | One-stop solution for market & academic research',
-    description: 'one-stop solution for market & academic research',
-}
+// export const metadata = {
+//     title: 'Neen Inovations | One-stop solution for market & academic research',
+//     description: 'one-stop solution for market & academic research',
+// }
 
 export default function RootLayout({ children }) { 
 

@@ -164,13 +164,13 @@
 
 .footer-style{
   position: relative;
-  padding: 137px 0px 140px 0px;
+  padding: 137px 0px 0px 0px !important;
 }
 
 .footer-style .outer-container{
   position: relative;
   max-width: 1580px;
-  padding: 0px 15px;
+  padding: 0px 20px;
   margin: 0 auto;
   width: 100%;
 }

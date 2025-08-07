@@ -4,7 +4,13 @@ import Layout from "@/components/layout/Layout"
 import "app/favicon.ico"
 import Link from "next/link"
 
+import { useEffect } from "react";
+
 export default function Service_Details_one() {
+
+    useEffect(() => {
+    document.title = "Academic & Writing Services | Neen Inovations | One-stop solution for market & academic research";
+  }, []);
 
     const [isActive, setIsActive] = useState({
         status: false,
@@ -31,12 +37,12 @@ export default function Service_Details_one() {
             
             <section className="service-details">
                 <div className="shape">
-                    <div className="shape-1 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-55.png)" }}></div>
-                    <div className="shape-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-72.png)" }}></div>
-                    <div className="shape-3 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-69.png)" }}></div>
-                    <div className="shape-4 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-70.png)" }}></div>
-                    <div className="shape-5" style={{ backgroundImage: "url(assets/images/shape/shape-4.jpg)" }}></div>
-                    <div className="shape-6" style={{ backgroundImage: "url(assets/images/shape/shape-5.jpg)" }}></div>
+                    <div className="shape-1 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-55.png)" }}></div>
+                    <div className="shape-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-72.png)" }}></div>
+                    <div className="shape-3 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-69.png)" }}></div>
+                    <div className="shape-4 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-70.png)" }}></div>
+                    <div className="shape-5" style={{ backgroundImage: "url(/assets/images/shape/shape-4.jpg)" }}></div>
+                    <div className="shape-6" style={{ backgroundImage: "url(/assets/images/shape/shape-5.jpg)" }}></div>
                 </div>
                 <div className="auto-container">
                     <div className="row clearfix">
@@ -44,45 +50,45 @@ export default function Service_Details_one() {
                             <div className="service-details-content mr_130">
                                 <div className="content-one mb_70">
                                     <div className="upper-text mb_40">
-                                        <h2>Marketing Insights & Evaluation</h2>
-                                        <p>Competitor Analysis & Landscape</p>
+                                        <h2>Academic & Writing Services</h2>
+                                        <p>Thesis, Dissertation, Research</p>
                                     </div>
-                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
+                                    {/* <figure className="image-box mb_50"><img src="/assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
                                     <div className="text-box mb_50">
-                                        <p>Stay ahead of the curve by understanding your market, competitors, and consumer behavior better than anyone else. We offer deep-dive marketing evaluations that go beyond basic metrics to give you the full picture. From SWOT analysis to market share tracking, pricing studies, and trend monitoring, our insights help optimize campaigns and brand positioning. We gather real-time and historical data from trusted sources to build a solid competitive landscape. Whether launching a product or rebranding, our marketing evaluations are your strategic advantage. We translate numbers into narratives that guide promotional tactics, budget allocation, and audience targeting.</p>
+                                        <p>We support scholars and researchers in crafting impactful academic content—be it a thesis, dissertation, or full-fledged research project. Our academic writing services are rooted in rigor, originality, and clarity. We work collaboratively with clients from ideation to defense, ensuring proper formatting, citation styles, and alignment with institutional guidelines. Our team helps in developing research questions, literature review, methodology design, data interpretation, and conclusion structuring. All content is plagiarism-free, peer-reviewed, and tailored for academic excellence. Whether you're pursuing a Master’s, PhD, or journal publication, we ensure your work stands out academically and intellectually. We respect academic deadlines and offer mentoring for oral defense preparations too.</p>
                                     </div>
                                     <h3>Our Goal</h3>
                                     <ul className="list-style-one clearfix">
-                                        <li>Empower your brand through competitor intelligence</li>
-                                        <li>Identify gaps and opportunities in your market</li>
-                                        <li>Support optimized marketing decision-making</li>
+                                        <li>Support academic excellence with authentic, well-structured research</li>
+                                        <li>Ensure timely delivery with continuous collaboration</li>
+                                        <li>Provide research mentoring as required</li>
                                     </ul>
                                 </div>
                                 <div className="content-two mb_70">
                                     <div className="text-box mb_40">
                                         <h2>Work Process</h2>
-                                        <p>Designed to help brands decode market trends, competitor performance, and audience behavior with clarity.</p>
+                                        <p>Tailored for scholars, institutes, and researchers seeking expert assistance in thesis, dissertations, and research documentation.</p>
                                     </div>
                                     <div className="row clearfix">
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-44"></i></div>
                                                 <h3>Collect Doc</h3>
-                                                <p>Define target markets, competitors, and objectives.</p>
+                                                <p>Share topic, scope, and any institutional requirements.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-45"></i></div>
                                                 <h3>Check & Finalize</h3>
-                                                <p>Analyze trends, segments, and strategic gaps.</p>
+                                                <p>We write, review, and revise drafts in sync with your feedback.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-46"></i></div>
                                                 <h3>Completed</h3>
-                                                <p>Provide actionable marketing report and advisory.</p>
+                                                <p>Final submission with formatting and citations done.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,22 +99,22 @@ export default function Service_Details_one() {
                                         <li className="accordion block">
                                             <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>Do you analyze social media presence as part of competitor analysis?</h3>
+                                                <h3>Do you assist with journal publications too?</h3>
                                             </div>
                                             <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>Yes, we evaluate digital footprint, engagement, and campaign effectiveness.</p>
+                                                    <p>Yes, we help in drafting, editing, and submitting manuscripts for peer-reviewed journals.</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="accordion block">
                                             <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>Can you evaluate offline and online strategies together?</h3>
+                                                <h3>How do you ensure originality?</h3>
                                             </div>
                                             <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>Absolutely. We offer hybrid channel analysis.</p>
+                                                    <p>We use Turnitin and other tools to guarantee plagiarism-free content.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -120,20 +126,20 @@ export default function Service_Details_one() {
                         <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side">
                             <div className="service-sidebar">
                                 <div className="service-category">
-                                    <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-168.png)" }}></div>
+                                    <div className="sidebar-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-168.png)" }}></div>
                                     <h3>Services</h3>
                                     <ul className="category-list clearfix">
-                                        <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
-                        <li><Link href="/academic-&-writing-services-service">Academic & Writing Services</Link></li>
-                        <li><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports</Link></li>
-                        <li><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
-                        <li><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
-                        <li><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
-                        <li><Link href="/website-&-app-development-service">Website & App Development</Link></li>
+                                         <li><Link href="/service-details/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
+                                        <li><Link href="/service-details/academic-&-writing-services-service">Academic & Writing Services</Link></li>
+                                        <li><Link href="/service-details/data-driven-strategy-&-reports-service">Data-driven Strategy & Reports</Link></li>
+                                        <li><Link href="/service-details/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
+                                        <li><Link href="/service-details/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                                        <li><Link href="/service-details/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
+                                        <li><Link href="/service-details/website-&-app-development-service">Website & App Development</Link></li>
                                     </ul>
                                 </div>
                                 <div className="contact-widget">
-                                    <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-169.png)" }}></div>
+                                    <div className="sidebar-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-169.png)" }}></div>
                                     <h3>Any Questions? Let’s talk</h3>
                                     <Link href="/contact">Let’s Talk</Link>
                                 </div>
@@ -144,12 +150,12 @@ export default function Service_Details_one() {
             </section>
             
             <section className="discuss-section centred">
-                <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-3.jpg)" }}></div>
-                <div className="dark-pattern" style={{ backgroundImage: "url(assets/images/shape/shape-68.png)" }}></div>
-                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-69.png)" }}></div>
-                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-70.png)" }}></div>
-                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-71.png)" }}></div>
-                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-72.png)" }}></div>
+                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-3.jpg)" }}></div>
+                <div className="dark-pattern" style={{ backgroundImage: "url(/assets/images/shape/shape-68.png)" }}></div>
+                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-69.png)" }}></div>
+                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-70.png)" }}></div>
+                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-71.png)" }}></div>
+                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-72.png)" }}></div>
                 <div className="auto-container">
                     <div className="content-box sec-title-animation animation-style2">
                         <h1 className="title-animation">So, you want a <br /><span>research.</span> We can take, make it <span>awesome</span></h1>

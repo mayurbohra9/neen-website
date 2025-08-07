@@ -4,7 +4,13 @@ import Layout from "@/components/layout/Layout"
 import "app/favicon.ico"
 import Link from "next/link"
 
+import { useEffect } from "react";
+
 export default function Service_Details_one() {
+
+    useEffect(() => {
+    document.title = "Patent & IP Solutions | Neen Inovations | One-stop solution for market & academic research";
+  }, []);
 
     const [isActive, setIsActive] = useState({
         status: false,
@@ -31,12 +37,12 @@ export default function Service_Details_one() {
             
             <section className="service-details">
                 <div className="shape">
-                    <div className="shape-1 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-55.png)" }}></div>
-                    <div className="shape-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-72.png)" }}></div>
-                    <div className="shape-3 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-69.png)" }}></div>
-                    <div className="shape-4 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-70.png)" }}></div>
-                    <div className="shape-5" style={{ backgroundImage: "url(assets/images/shape/shape-4.jpg)" }}></div>
-                    <div className="shape-6" style={{ backgroundImage: "url(assets/images/shape/shape-5.jpg)" }}></div>
+                    <div className="shape-1 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-55.png)" }}></div>
+                    <div className="shape-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-72.png)" }}></div>
+                    <div className="shape-3 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-69.png)" }}></div>
+                    <div className="shape-4 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-70.png)" }}></div>
+                    <div className="shape-5" style={{ backgroundImage: "url(/assets/images/shape/shape-4.jpg)" }}></div>
+                    <div className="shape-6" style={{ backgroundImage: "url(/assets/images/shape/shape-5.jpg)" }}></div>
                 </div>
                 <div className="auto-container">
                     <div className="row clearfix">
@@ -47,7 +53,7 @@ export default function Service_Details_one() {
                                         <h2>Patent & IP Solutions</h2>
                                         <p>Prior Art & Patent Analysis</p>
                                     </div>
-                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
+                                    {/* <figure className="image-box mb_50"><img src="/assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
                                     <div className="text-box mb_50">
                                         <p>Intellectual property can define your business edge—if protected and managed wisely. Our Patent & IP Solutions include patent landscape reports, prior art searches, patentability assessments, and infringement risk evaluations. We serve innovators, startups, universities, and legal teams with precise technical and legal insights. Our experts use globally trusted databases to uncover existing patents, evaluate uniqueness, and support patent drafting. We bridge the gap between innovation and IP protection by providing advisory across technical fields. Our reports help you file with confidence, avoid legal hurdles, and maximize the value of your IP.</p>
                                     </div>
@@ -120,20 +126,20 @@ export default function Service_Details_one() {
                         <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side">
                             <div className="service-sidebar">
                                 <div className="service-category">
-                                    <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-168.png)" }}></div>
+                                    <div className="sidebar-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-168.png)" }}></div>
                                     <h3>Services</h3>
                                     <ul className="category-list clearfix">
                                          <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
-                        <li><Link href="/academic-&-writing-services-service">Academic & Writing Services</Link></li>
-                        <li><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports</Link></li>
-                        <li><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
-                        <li><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
-                        <li><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
-                        <li><Link href="/website-&-app-development-service">Website & App Development</Link></li>
+                        <li><Link href="/service-details/academic-&-writing-services-service">Academic & Writing Services</Link></li>
+                        <li><Link href="/service-details/data-driven-strategy-&-reports-service">Data-driven Strategy & Reports</Link></li>
+                        <li><Link href="/service-details/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
+                        <li><Link href="/service-details/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                        <li><Link href="/service-details/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
+                        <li><Link href="/service-details/website-&-app-development-service">Website & App Development</Link></li>
                                     </ul>
                                 </div>
                                 <div className="contact-widget">
-                                    <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-169.png)" }}></div>
+                                    <div className="sidebar-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-169.png)" }}></div>
                                     <h3>Any Questions? Let’s talk</h3>
                                     <Link href="/contact">Let’s Talk</Link>
                                 </div>
@@ -144,12 +150,12 @@ export default function Service_Details_one() {
             </section>
             
             <section className="discuss-section centred">
-                <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-3.jpg)" }}></div>
-                <div className="dark-pattern" style={{ backgroundImage: "url(assets/images/shape/shape-68.png)" }}></div>
-                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-69.png)" }}></div>
-                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-70.png)" }}></div>
-                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-71.png)" }}></div>
-                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-72.png)" }}></div>
+                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-3.jpg)" }}></div>
+                <div className="dark-pattern" style={{ backgroundImage: "url(/assets/images/shape/shape-68.png)" }}></div>
+                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-69.png)" }}></div>
+                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-70.png)" }}></div>
+                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-71.png)" }}></div>
+                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-72.png)" }}></div>
                 <div className="auto-container">
                     <div className="content-box sec-title-animation animation-style2">
                         <h1 className="title-animation">So, you want a <br /><span>research.</span> We can take, make it <span>awesome</span></h1>

@@ -50,8 +50,8 @@ export default function Banner(){
                 <SwiperSlide>
                     <div className="slide-item">
                         <span className="count-text">01.</span>
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-48.png)" }}></div>
-                        <div className="dark-pattern" style={{ backgroundImage: "url(assets/images/shape/shape-52.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-48.png)" }}></div>
+                        <div className="dark-pattern" style={{ backgroundImage: "url(/assets/images/shape/shape-52.png)" }}></div>
                         <div className="large-container">
                             <div className="content-box">
                                 <div className="text-box">
@@ -68,8 +68,8 @@ export default function Banner(){
                 <SwiperSlide>
                     <div className="slide-item">
                         <span className="count-text">02.</span>
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-48.png)" }}></div>
-                        <div className="dark-pattern" style={{ backgroundImage: "url(assets/images/shape/shape-52.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-48.png)" }}></div>
+                        <div className="dark-pattern" style={{ backgroundImage: "url(/assets/images/shape/shape-52.png)" }}></div>
                         <div className="large-container">
                             <div className="content-box">
                                 <div className="text-box">
@@ -86,8 +86,8 @@ export default function Banner(){
                 <SwiperSlide>
                     <div className="slide-item">
                         <span className="count-text">03.</span>
-                        <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-48.png)" }}></div>
-                        <div className="dark-pattern" style={{ backgroundImage: "url(assets/images/shape/shape-52.png)" }}></div>
+                        <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-48.png)" }}></div>
+                        <div className="dark-pattern" style={{ backgroundImage: "url(/assets/images/shape/shape-52.png)" }}></div>
                         <div className="large-container">
                             <div className="content-box">
                                 <div className="text-box">

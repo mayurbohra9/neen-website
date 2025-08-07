@@ -3,7 +3,13 @@ import Layout from "@/components/layout/Layout"
 import "app/favicon.ico"
 import Link from "next/link"
 
+import { useEffect } from "react";
+
 export default function Blog_Details() {
+
+    useEffect(() => {
+    document.title = "Building Digital Foundations: The Art of Website & App Development | Neen Inovations | One-stop solution for market & academic research";
+  }, []);
 
 
     return (
@@ -21,36 +27,37 @@ export default function Blog_Details() {
                                             {/* <li><Link href="/blog-details">Jonas</Link></li> */}
                                             {/* <li>2 Comments</li> */}
                                         </ul>
-                                        <h2>Design That Speaks: The Role of UI/UX & Visual Content in Digital Success.</h2>
+                                        <h2>Building Digital Foundations: The Art of Website & App Development.</h2>
                                     </div>
                                     <div className="image-box mb_50">
-                                        <span className="post-date">10 May 2025</span>
-                                        <figure className="image"><img src="assets/images/resource/blog-3.2.jpeg" alt=""/></figure>
+                                        <span className="post-date">20 Feb 2025</span>
+                                        <figure className="image"><img src="/assets/images/resource/blog-2.2.jpg" alt=""/></figure>
                                     </div>
                                     <div className="text-box">
-                                        <p>Visual communication has transcended traditional boundaries, becoming central to how users experience brands online. UI (User Interface) and UX (User Experience) design, coupled with compelling visual content, create the emotional bridge between digital platforms and their audiences. In a digital-first world, design isn't just about making things look good—it’s about making them work beautifully.</p>
-                                        <p>UI focuses on the visual elements—colors, typography, layout, icons—while UX encompasses the overall journey of the user, ensuring it's seamless, intuitive, and delightful. The best digital products are those where the user doesn’t have to think about what to do next; it just feels natural. This is the outcome of thoughtful UX planning, usability testing, and feedback integration.</p>
+                                        <p>In an era where the first impression of a brand is often digital, having a powerful online presence is not just an option—it's a necessity. Website and app development has evolved from simple coding tasks into a strategic process that bridges business goals with seamless user experiences. The development of an intuitive website or mobile application lays the foundation for customer engagement, sales conversions, and brand loyalty.</p>
+
+                                        <p>Modern web and app development starts with understanding the core purpose of the platform. Is it to inform, sell, entertain, or connect? Once the goal is defined, the technical architecture, UI/UX design, backend integrations, and performance optimization come into play. Today’s users demand fast, responsive, and clean interfaces. This means developers must balance functionality with aesthetics, ensuring every page load, button tap, or form fill works flawlessly across all devices.</p>
 
                                         <p>
-                                            At the same time, visual content—whether infographics, sketch notes, or custom illustrations—adds clarity, personality, and engagement. Good visuals break down complexity and enhance comprehension. A strategically placed graphic can tell a story faster than a paragraph of text ever could. In reports, presentations, or even dashboards, visuals hold the power to turn dry data into engaging narratives.
+                                            Security and scalability are also integral to any digital product. With rising cyber threats, secure coding practices, regular updates, and encrypted data handling are essential. For businesses anticipating growth, scalable development ensures their platforms can handle increasing traffic and data without compromising performance.
                                         </p>
 
                                         <p>
-                                            With the rise of motion design, micro-interactions, and AR/VR integrations, UI/UX has entered a new era of immersion. It’s not just about how users interact with a product—it’s how the product makes them feel. Consistency, accessibility, and responsiveness are pillars of good design, and they define the emotional tone of a brand.
+                                            Moreover, development doesn’t stop at deployment. Post-launch analytics, performance tracking, user feedback, and regular iterations are part of a sustainable growth loop. Agile methodology and DevOps practices enable quick changes and bug fixes, reducing downtime and enhancing the overall user experience.
                                         </p>
 
                                         <p>
-                                            In every industry, companies that prioritize experience-driven design stand out—not just in aesthetics, but in the trust and satisfaction they build.
+                                            In the end, great development is about creating digital ecosystems that feel human. When done right, users don’t notice the tech—they just feel understood.
                                         </p>
                                     </div>
                                 </div>
                                 <blockquote>
                                     <div className="icon-box"><i className="icon-23"></i></div>
-                                    <h2>Design is not decoration—it’s a dialogue between brand and user.</h2>
+                                    <h2>Code builds the structure, but user experience defines the soul.</h2>
                                     {/* <h4>James Bond. <span>Laywer</span></h4> */}
                                 </blockquote>
                                 {/* <div className="content-two mb_60">
-                                    <figure className="image-box mb_50"><img src="assets/images/news/news-28.jpg" alt=""/></figure>
+                                    <figure className="image-box mb_50"><img src="/assets/images/news/news-28.jpg" alt=""/></figure>
                                     <div className="text-box">
                                         <h2>Crime is Not An Art.</h2>
                                         <p>One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in quis elit future. The same Duis aute irure dolor in reprehenderit . One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in quis elit future. The same Duis aute irure dolor in reprehe. in culpa qui official deserunt mollit anim</p>
@@ -76,14 +83,14 @@ export default function Blog_Details() {
                                     <h2>Comments</h2>
                                     <div className="comment-inner">
                                         <div className="comment">
-                                            <figure className="thumb-box"><img src="assets/images/news/comment-1.jpg" alt=""/></figure>
+                                            <figure className="thumb-box"><img src="/assets/images/news/comment-1.jpg" alt=""/></figure>
                                             <h4>Kudilum Ahus</h4>
                                             <p>Sunt in culpa qui official deserunt mollit anim id est laborum.Suspendisse interdum consectetur libero id faucib nisl. Lacus vel facilisis volutpat est velit egestas.</p>
                                             <span className="comment-time">13 June, 23, 7:30pm</span>
                                             <Link href="/blog-details" className="reply-btn">Reply</Link>
                                         </div>
                                         <div className="comment">
-                                            <figure className="thumb-box"><img src="assets/images/news/comment-2.jpg" alt=""/></figure>
+                                            <figure className="thumb-box"><img src="/assets/images/news/comment-2.jpg" alt=""/></figure>
                                             <h4>Jubayer Al Hasan</h4>
                                             <p>Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Sit amet ris nullam eget felis.</p>
                                             <span className="comment-time">11 June, 23, 4:30pm</span>

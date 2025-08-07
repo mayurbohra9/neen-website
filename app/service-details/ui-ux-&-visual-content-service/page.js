@@ -4,7 +4,13 @@ import Layout from "@/components/layout/Layout"
 import "app/favicon.ico"
 import Link from "next/link"
 
+import { useEffect } from "react";
+
 export default function Service_Details_one() {
+
+    useEffect(() => {
+    document.title = "UI/UX & Visual Content | Neen Inovations | One-stop solution for market & academic research";
+  }, []);
 
     const [isActive, setIsActive] = useState({
         status: false,
@@ -31,12 +37,12 @@ export default function Service_Details_one() {
             
             <section className="service-details">
                 <div className="shape">
-                    <div className="shape-1 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-55.png)" }}></div>
-                    <div className="shape-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-72.png)" }}></div>
-                    <div className="shape-3 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-69.png)" }}></div>
-                    <div className="shape-4 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-70.png)" }}></div>
-                    <div className="shape-5" style={{ backgroundImage: "url(assets/images/shape/shape-4.jpg)" }}></div>
-                    <div className="shape-6" style={{ backgroundImage: "url(assets/images/shape/shape-5.jpg)" }}></div>
+                    <div className="shape-1 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-55.png)" }}></div>
+                    <div className="shape-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-72.png)" }}></div>
+                    <div className="shape-3 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-69.png)" }}></div>
+                    <div className="shape-4 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-70.png)" }}></div>
+                    <div className="shape-5" style={{ backgroundImage: "url(/assets/images/shape/shape-4.jpg)" }}></div>
+                    <div className="shape-6" style={{ backgroundImage: "url(/assets/images/shape/shape-5.jpg)" }}></div>
                 </div>
                 <div className="auto-container">
                     <div className="row clearfix">
@@ -44,45 +50,45 @@ export default function Service_Details_one() {
                             <div className="service-details-content mr_130">
                                 <div className="content-one mb_70">
                                     <div className="upper-text mb_40">
-                                        <h2>Data-driven Strategy & Reports</h2>
-                                        <p>Feasibility, M\&A, Tech Profiling</p>
+                                        <h2>UI/UX & Visual Content</h2>
+                                        <p>Sketch Noting, Visual Reports</p>
                                     </div>
-                                    {/* <figure className="image-box mb_50"><img src="assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
+                                    {/* <figure className="image-box mb_50"><img src="/assets/images/service/marketing-insights-&-evaluation-service.jpg" alt=""/></figure> */}
                                     <div className="text-box mb_50">
-                                        <p>Strategic decision-making needs solid backing from accurate, timely, and well-structured data. Our data-driven reports are created to guide you through business feasibility studies, mergers & acquisitions, and emerging technology assessments. We convert raw data into strategic insights using advanced analytics, visualization tools, and industry best practices. From financial modeling to growth forecasts, we tailor each report to client requirements. Our approach blends quantitative research with business acumen, allowing you to identify scalable opportunities and mitigate risks. Whether you're an investor, startup, or corporate executive, our reports ensure you're never caught unprepared in high-stakes decisions.</p>
+                                        <p>Your data and ideas deserve to be communicated effectively. We specialize in transforming complex information into visually rich experiences—be it through sketch noting, infographics, or interactive dashboards. Our UI/UX and visual content services aim to simplify, beautify, and elevate every user’s interaction. Whether for internal presentations, client pitches, or public communications, we ensure your visual material is both informative and emotionally resonant. Our team balances aesthetics with functionality using research-backed design principles. From mobile-first UI design to animated explainer graphics, we craft visuals that captivate and inform.</p>
                                     </div>
                                     <h3>Our Goal</h3>
                                     <ul className="list-style-one clearfix">
-                                        <li>Provide well-structured, data-backed strategic recommendations</li>
-                                        <li>Simplify complex decisions through clear, visual reports</li>
-                                        <li>Help businesses make confident, risk-aware moves</li>
+                                        <li>Convert ideas and data into engaging visual formats</li>
+                                        <li>Enhance usability with smart UI/UX</li>
+                                        <li>Enable faster comprehension through intuitive design</li>
                                     </ul>
                                 </div>
                                 <div className="content-two mb_70">
                                     <div className="text-box mb_40">
                                         <h2>Work Process</h2>
-                                        <p>Created for businesses aiming to align decisions with solid data. We craft feasibility studies, M\&A evaluations, and tech landscape reports.</p>
+                                        <p>For brands seeking intuitive user journeys and compelling visual communication across reports, products, and platforms.</p>
                                     </div>
                                     <div className="row clearfix">
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-44"></i></div>
                                                 <h3>Collect Doc</h3>
-                                                <p>Understand your objective and gather relevant market & financial data.</p>
+                                                <p>Understand goals, data sources, and design tone.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-45"></i></div>
                                                 <h3>Check & Finalize</h3>
-                                                <p>Perform modeling, validation, and data synthesis.</p>
+                                                <p>Create wireframes, prototypes, and sketches.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                             <div className="single-item">
                                                 <div className="icon-box"><i className="icon-46"></i></div>
                                                 <h3>Completed</h3>
-                                                <p>Deliver presentation-ready strategy report.</p>
+                                                <p>Deliver editable, branded visual content.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,22 +99,22 @@ export default function Service_Details_one() {
                                         <li className="accordion block">
                                             <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>What industries do you specialize in for feasibility reports?</h3>
+                                                <h3>Can I request revisions or iterations on visuals?</h3>
                                             </div>
                                             <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>We cover tech, healthcare, education, fintech, and more, with domain experts on each.</p>
+                                                    <p>Yes, we provide 2–3 design iterations based on feedback.</p>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className="accordion block">
                                             <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
                                                 <div className="icon-box"><i className="icon-29"></i></div>
-                                                <h3>Can we request interactive dashboards along with reports?</h3>
+                                                <h3>What formats do you deliver the visuals in?</h3>
                                             </div>
                                             <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                                                 <div className="content">
-                                                    <p>Yes, we offer dashboards for real-time data exploration.</p>
+                                                    <p>We provide .PDF, .PNG, .FIG, and .XD files as needed.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -120,20 +126,20 @@ export default function Service_Details_one() {
                         <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side">
                             <div className="service-sidebar">
                                 <div className="service-category">
-                                    <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-168.png)" }}></div>
+                                    <div className="sidebar-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-168.png)" }}></div>
                                     <h3>Services</h3>
                                     <ul className="category-list clearfix">
-                                         <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
-                        <li><Link href="/academic-&-writing-services-service">Academic & Writing Services</Link></li>
-                        <li><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports</Link></li>
-                        <li><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
-                        <li><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
-                        <li><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
-                        <li><Link href="/website-&-app-development-service">Website & App Development</Link></li>
+                                        <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
+                        <li><Link href="/service-details/academic-&-writing-services-service">Academic & Writing Services</Link></li>
+                        <li><Link href="/service-details/data-driven-strategy-&-reports-service">Data-driven Strategy & Reports</Link></li>
+                        <li><Link href="/service-details/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
+                        <li><Link href="/service-details/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                        <li><Link href="/service-details/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
+                        <li><Link href="/service-details/website-&-app-development-service">Website & App Development</Link></li>
                                     </ul>
                                 </div>
                                 <div className="contact-widget">
-                                    <div className="sidebar-shape" style={{ backgroundImage: "url(assets/images/shape/shape-169.png)" }}></div>
+                                    <div className="sidebar-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-169.png)" }}></div>
                                     <h3>Any Questions? Let’s talk</h3>
                                     <Link href="/contact">Let’s Talk</Link>
                                 </div>
@@ -144,12 +150,12 @@ export default function Service_Details_one() {
             </section>
             
             <section className="discuss-section centred">
-                <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-3.jpg)" }}></div>
-                <div className="dark-pattern" style={{ backgroundImage: "url(assets/images/shape/shape-68.png)" }}></div>
-                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-69.png)" }}></div>
-                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-70.png)" }}></div>
-                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-71.png)" }}></div>
-                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-72.png)" }}></div>
+                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-3.jpg)" }}></div>
+                <div className="dark-pattern" style={{ backgroundImage: "url(/assets/images/shape/shape-68.png)" }}></div>
+                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-69.png)" }}></div>
+                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-70.png)" }}></div>
+                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-71.png)" }}></div>
+                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-72.png)" }}></div>
                 <div className="auto-container">
                     <div className="content-box sec-title-animation animation-style2">
                         <h1 className="title-animation">So, you want a <br /><span>research.</span> We can take, make it <span>awesome</span></h1>

@@ -3,8 +3,13 @@ import Layout from "@/components/layout/Layout"
 import "app/favicon.ico"
 import Link from "next/link"
 
+import { useEffect } from "react";
+
 export default function Blog_Details() {
 
+    useEffect(() => {
+    document.title = "Design That Speaks: The Role of UI/UX & Visual Content in Digital Success | Neen Inovations | One-stop solution for market & academic research";
+  }, []);
 
     return (
         <div className="boxed_wrapper">
@@ -21,36 +26,36 @@ export default function Blog_Details() {
                                             {/* <li><Link href="/blog-details">Jonas</Link></li> */}
                                             {/* <li>2 Comments</li> */}
                                         </ul>
-                                        <h2>Why Market Research is the Cornerstone of Smart Business Decisions.</h2>
+                                        <h2>Design That Speaks: The Role of UI/UX & Visual Content in Digital Success.</h2>
                                     </div>
                                     <div className="image-box mb_50">
-                                        <span className="post-date">01 Jul 2025</span>
-                                        <figure className="image"><img src="assets/images/resource/blog-1.2.png" alt=""/></figure>
+                                        <span className="post-date">10 May 2025</span>
+                                        <figure className="image"><img src="/assets/images/resource/blog-3.2.jpeg" alt=""/></figure>
                                     </div>
                                     <div className="text-box">
-                                        <p>In today’s dynamic and highly competitive business environment, the power of informed decision-making cannot be overstated. Market research plays a pivotal role in shaping strategies, minimizing risks, and uncovering emerging opportunities. It provides a structured way of gathering, analyzing, and interpreting data related to a particular market, including insights about target audiences, competitors, industry trends, and customer behavior. Businesses—whether startups or industry giants—rely on well-executed research to understand where their products or services stand and how they can innovate to meet real-world demands.</p>
+                                        <p>Visual communication has transcended traditional boundaries, becoming central to how users experience brands online. UI (User Interface) and UX (User Experience) design, coupled with compelling visual content, create the emotional bridge between digital platforms and their audiences. In a digital-first world, design isn't just about making things look good—it’s about making them work beautifully.</p>
+                                        <p>UI focuses on the visual elements—colors, typography, layout, icons—while UX encompasses the overall journey of the user, ensuring it's seamless, intuitive, and delightful. The best digital products are those where the user doesn’t have to think about what to do next; it just feels natural. This is the outcome of thoughtful UX planning, usability testing, and feedback integration.</p>
 
                                         <p>
-                                            By identifying market gaps and consumer expectations, research enables companies to position themselves more effectively. It also assists in forecasting trends, refining marketing strategies, and ensuring resource allocation is efficient. Furthermore, it’s not only limited to pre-launch studies; ongoing market analysis allows brands to stay agile, adapt to shifts, and sustain relevance in evolving environments.
+                                            At the same time, visual content—whether infographics, sketch notes, or custom illustrations—adds clarity, personality, and engagement. Good visuals break down complexity and enhance comprehension. A strategically placed graphic can tell a story faster than a paragraph of text ever could. In reports, presentations, or even dashboards, visuals hold the power to turn dry data into engaging narratives.
                                         </p>
 
                                         <p>
-                                            Good research does more than inform—it empowers. It transforms guesswork into strategy. Tools like surveys, interviews, focus groups, and secondary data analysis, when implemented properly, generate actionable insights. These insights are then used across functions: from product design to marketing campaigns to customer service enhancements.
+                                            With the rise of motion design, micro-interactions, and AR/VR integrations, UI/UX has entered a new era of immersion. It’s not just about how users interact with a product—it’s how the product makes them feel. Consistency, accessibility, and responsiveness are pillars of good design, and they define the emotional tone of a brand.
                                         </p>
 
-
                                         <p>
-                                            In a digital world where customer expectations evolve rapidly, market research ensures that business decisions are driven by data, not assumptions. Those who ignore it often find themselves reactive rather than proactive. Today, research firms go beyond data collection—they provide strategic consulting to translate research into impact. Whether it’s launching a product or expanding into a new geography, every successful move begins with insight.
+                                            In every industry, companies that prioritize experience-driven design stand out—not just in aesthetics, but in the trust and satisfaction they build.
                                         </p>
                                     </div>
                                 </div>
                                 <blockquote>
                                     <div className="icon-box"><i className="icon-23"></i></div>
-                                    <h2>Informed decisions aren’t lucky guesses—they’re results of great research.</h2>
+                                    <h2>Design is not decoration—it’s a dialogue between brand and user.</h2>
                                     {/* <h4>James Bond. <span>Laywer</span></h4> */}
                                 </blockquote>
                                 {/* <div className="content-two mb_60">
-                                    <figure className="image-box mb_50"><img src="assets/images/news/news-28.jpg" alt=""/></figure>
+                                    <figure className="image-box mb_50"><img src="/assets/images/news/news-28.jpg" alt=""/></figure>
                                     <div className="text-box">
                                         <h2>Crime is Not An Art.</h2>
                                         <p>One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in quis elit future. The same Duis aute irure dolor in reprehenderit . One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in quis elit future. The same Duis aute irure dolor in reprehe. in culpa qui official deserunt mollit anim</p>
@@ -76,14 +81,14 @@ export default function Blog_Details() {
                                     <h2>Comments</h2>
                                     <div className="comment-inner">
                                         <div className="comment">
-                                            <figure className="thumb-box"><img src="assets/images/news/comment-1.jpg" alt=""/></figure>
+                                            <figure className="thumb-box"><img src="/assets/images/news/comment-1.jpg" alt=""/></figure>
                                             <h4>Kudilum Ahus</h4>
                                             <p>Sunt in culpa qui official deserunt mollit anim id est laborum.Suspendisse interdum consectetur libero id faucib nisl. Lacus vel facilisis volutpat est velit egestas.</p>
                                             <span className="comment-time">13 June, 23, 7:30pm</span>
                                             <Link href="/blog-details" className="reply-btn">Reply</Link>
                                         </div>
                                         <div className="comment">
-                                            <figure className="thumb-box"><img src="assets/images/news/comment-2.jpg" alt=""/></figure>
+                                            <figure className="thumb-box"><img src="/assets/images/news/comment-2.jpg" alt=""/></figure>
                                             <h4>Jubayer Al Hasan</h4>
                                             <p>Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Sit amet ris nullam eget felis.</p>
                                             <span className="comment-time">11 June, 23, 4:30pm</span>

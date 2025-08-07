@@ -5,15 +5,21 @@ import React from 'react'
 import Link from "next/link"
 import CounterUp from "@/components/elements/CounterUp"
 
+import { useEffect } from "react";
+
 export default function About() {
+
+useEffect(() => {
+    document.title = "About | Neen Inovations | One-stop solution for market & academic research ";
+}, []);
 
     return (
         <div className="boxed_wrapper">
             <Layout headerStyle={5} footerStyle={5}>
             
             <section className="about-style about-style-four alternat-2">
-                <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-1.jpg)" }}></div>
-                <div className="pattern-layer-2" style={{ backgroundImage: "url(assets/images/shape/shape-2.jpg)" }}></div>
+                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-1.jpg)" }}></div>
+                <div className="pattern-layer-2" style={{ backgroundImage: "url(/assets/images/shape/shape-2.jpg)" }}></div>
                 <div className="outer-container">
                     <div className="row clearfix">
                         <div className="col-lg-5 col-md-12 col-sm-12 text-column">
@@ -32,7 +38,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="image-box pt_120">
-                        <figure className="image"><img src="assets/images/resource/about-8.jpg" alt=""/></figure>
+                        <figure className="image"><img src="/assets/images/resource/about-8.jpg" alt=""/></figure>
                     </div>
                     <div className="funfact-inner mt_110">
                         <div className="single-item">
@@ -68,9 +74,9 @@ export default function About() {
                             
                             <div className="service-block-two">
                                 <div className="inner-box">
-                                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-56.png)" }}></div>
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-56.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/custom-research-&-consulting-service">Custom Research & Consulting.</Link></h3>
+                                    <h3><Link href="/service-details/custom-research-&-consulting-service">Custom Research & Consulting.</Link></h3>
                                     <p>Market Study & Intelligence</p>
                                 </div>
                             </div>
@@ -78,9 +84,9 @@ export default function About() {
                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                             <div className="service-block-two">
                                 <div className="inner-box">
-                                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-58.png)" }}></div>
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-58.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/academic-&-writing-services-service">Academic & Writing Services.</Link></h3>
+                                    <h3><Link href="/service-details/academic-&-writing-services-service">Academic & Writing Services.</Link></h3>
                                     <p>Thesis, Dissertation, Research</p>
                                 </div>
                             </div>
@@ -88,9 +94,9 @@ export default function About() {
                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                             <div className="service-block-two">
                                 <div className="inner-box">
-                                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-57.png)" }}></div>
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-57.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports.</Link></h3>
+                                    <h3><Link href="/service-details/data-driven-strategy-&-reports-service">Data-driven Strategy & Reports.</Link></h3>
                                     <p>Feasibility, M&A, Tech Profiling</p>
                                 </div>
                             </div>
@@ -98,9 +104,9 @@ export default function About() {
                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                             <div className="service-block-two">
                                 <div className="inner-box">
-                                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-57.png)" }}></div>
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-57.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation.</Link></h3>
+                                    <h3><Link href="/service-details/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation.</Link></h3>
                                     <p>Competitor Analysis & Landscape</p>
                                 </div>
                             </div>
@@ -108,9 +114,9 @@ export default function About() {
                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                             <div className="service-block-two">
                                 <div className="inner-box">
-                                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-56.png)" }}></div>
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-56.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content.</Link></h3>
+                                    <h3><Link href="/service-details/ui-ux-&-visual-ontent-service">UI/UX & Visual Content.</Link></h3>
                                     <p>Sketch Noting, Visual Reports</p>
                                 </div>
                             </div>
@@ -118,9 +124,9 @@ export default function About() {
                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                             <div className="service-block-two">
                                 <div className="inner-box">
-                                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-58.png)" }}></div>
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-58.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions.</Link></h3>
+                                    <h3><Link href="/service-details/patent-&-ip-solutions-service">Patent & IP Solutions.</Link></h3>
                                     <p>Prior Art & Patent Analysis</p>
                                 </div>
                             </div>
@@ -128,9 +134,9 @@ export default function About() {
                         <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                             <div className="service-block-two">
                                 <div className="inner-box">
-                                    <div className="shape" style={{ backgroundImage: "url(assets/images/shape/shape-58.png)" }}></div>
+                                    <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-58.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/website-&-app-development-service">Website & App Development.</Link></h3>
+                                    <h3><Link href="/service-details/website-&-app-development-service">Website & App Development.</Link></h3>
                                     <p>Intuitive, Attractive, Engaging</p>
                                 </div>
                             </div>
@@ -140,7 +146,7 @@ export default function About() {
             </section>
             
             <section className="chooseus-section sec-title-animation animation-style2">
-                <div className="shape float-bob-y" style={{ backgroundImage: "url(assets/images/shape/shape-149.png)" }}></div>
+                <div className="shape float-bob-y" style={{ backgroundImage: "url(/assets/images/shape/shape-149.png)" }}></div>
                 <div className="outer-container">
                     <div className="row clearfix">
                         <div className="col-lg-6 col-md-12 col-sm-12 title-column">
@@ -173,7 +179,7 @@ export default function About() {
             </section>
             
             <section className="testimonial-style-five pb_150">
-                <div className="pattern-layer float-bob-y" style={{ backgroundImage: "url(assets/images/shape/shape-65.png)" }}></div>
+                <div className="pattern-layer float-bob-y" style={{ backgroundImage: "url(/assets/images/shape/shape-65.png)" }}></div>
                 <div className="outer-container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12 left-column">
@@ -181,7 +187,7 @@ export default function About() {
                                 <div className="testimonial-block-three">
                                     <div className="inner-box">
                                         <figure className="clients-logo-text">FreshBite Organics Pvt. Ltd.</figure>
-                                        {/* <figure className="clients-logo"><img src="assets/images/clients/clients-16.png" alt=""/></figure> */}
+                                        {/* <figure className="clients-logo"><img src="/assets/images/clients/clients-16.png" alt=""/></figure> */}
                                         <p>“Neen Innovations unlocked key insights, growing FreshBite Organics’ customer reach”</p>
                                         <div className="lower-content">
                                             <h3>4.7 Excellent</h3>
@@ -198,7 +204,7 @@ export default function About() {
                                 <div className="testimonial-block-three">
                                     <div className="inner-box">
                                         <figure className="clients-logo-text">UrbanEdge Retail Solutions</figure>
-                                        {/* <figure className="clients-logo"><img src="assets/images/clients/clients-17.png" alt=""/></figure> */}
+                                        {/* <figure className="clients-logo"><img src="/assets/images/clients/clients-17.png" alt=""/></figure> */}
                                         <p>“Thanks to Neen Innovations, UrbanEdge Retail found new growth markets.”</p>
                                         <div className="lower-content">
                                             <h3>4.8 Excellent</h3>
@@ -215,7 +221,7 @@ export default function About() {
                                 <div className="testimonial-block-three">
                                     <div className="inner-box">
                                         <figure className="clients-logo-text">SwiftLogix Logistics Pvt. Ltd.</figure>
-                                        {/* <figure className="clients-logo"><img src="assets/images/clients/clients-18.png" alt=""/></figure> */}
+                                        {/* <figure className="clients-logo"><img src="/assets/images/clients/clients-18.png" alt=""/></figure> */}
                                         <p>“Neen Innovations’ research guided SwiftLogix Logistics towards smarter expansion decisions.”</p>
                                         <div className="lower-content">
                                             <h3>5.0 Excellent</h3>
@@ -248,40 +254,40 @@ export default function About() {
                 <div className="outer-container">
                     <div className="dark-logo">
                         <ul className="clients-logo">
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-19.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-20.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-21.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-22.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-19.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-20.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-21.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-22.png" alt=""/></Link></li>
                         </ul>
                         <ul className="clients-logo pl_200 pr_200">
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-23.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-24.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-25.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-23.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-24.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-25.png" alt=""/></Link></li>
                         </ul>
                     </div>
                     <div className="light-logo">
                         <ul className="clients-logo">
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-26.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-27.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-28.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-29.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-26.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-27.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-28.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-29.png" alt=""/></Link></li>
                         </ul>
                         <ul className="clients-logo pl_200 pr_200">
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-30.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-31.png" alt=""/></Link></li>
-                            <li><Link href="/index-5"><img src="assets/images/clients/clients-32.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-30.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-31.png" alt=""/></Link></li>
+                            <li><Link href="/index-5"><img src="/assets/images/clients/clients-32.png" alt=""/></Link></li>
                         </ul>
                     </div>
                 </div>
             </section>
              */}
             <section className="discuss-section centred">
-                <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-67.png)" }}></div>
-                <div className="dark-pattern" style={{ backgroundImage: "url(assets/images/shape/shape-68.png)" }}></div>
-                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-69.png)" }}></div>
-                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-70.png)" }}></div>
-                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-71.png)" }}></div>
-                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-72.png)" }}></div>
+                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-67.png)" }}></div>
+                <div className="dark-pattern" style={{ backgroundImage: "url(/assets/images/shape/shape-68.png)" }}></div>
+                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-69.png)" }}></div>
+                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-70.png)" }}></div>
+                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-71.png)" }}></div>
+                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-72.png)" }}></div>
                 <div className="auto-container">
                     <div className="content-box sec-title-animation animation-style2">
                         <h1 className="title-animation">So, you want a <br /><span>research.</span> We can take, make it <span>awesome</span></h1>

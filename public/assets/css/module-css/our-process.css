@@ -76,20 +76,27 @@
 
 .our_process-style-six .block-one .image-box{
   position: absolute;
-  left: 150px;
+  /* left: 10px; */
   bottom: 0px;
   width: 100%;
   text-align: center;
 }
 
 @media screen and (max-width: 767px) {
+
   .our_process-style-six .block-one .image-box{
   position: absolute;
-  left: 30px;
+  /* left: 30px; */
   bottom: 200px;
   width: 100%;
   text-align: center;
 }
+
+.our_process-style-six p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 }
 
 .our_process-style-six .block-one .shape{

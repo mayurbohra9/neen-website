@@ -6,7 +6,13 @@ import Link from "next/link"
 
 // not in use yet
 
+import { useEffect } from "react";
+
 export default function Portfolio_Four() {
+
+    useEffect(() => {
+    document.title = "Portfolio | Neen Inovations | One-stop solution for market & academic research";
+  }, []);
 
     return (
         <div className="boxed_wrapper">
@@ -14,10 +20,10 @@ export default function Portfolio_Four() {
             
             <section className="work-page-four-section">
                 <div className="pattern-layer">
-                    <div className="pattern-1" style={{ backgroundImage: "url(assets/images/shape/shape-1.jpg)" }}></div>
-                    <div className="pattern-2" style={{ backgroundImage: "url(assets/images/shape/shape-2.jpg)" }}></div>
-                    <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-55.png)" }}></div>
-                    <div className="pattern-4 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-59.png)" }}></div>
+                    <div className="pattern-1" style={{ backgroundImage: "url(/assets/images/shape/shape-1.jpg)" }}></div>
+                    <div className="pattern-2" style={{ backgroundImage: "url(/assets/images/shape/shape-2.jpg)" }}></div>
+                    <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-55.png)" }}></div>
+                    <div className="pattern-4 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-59.png)" }}></div>
                 </div>
                 <div className="outer-container">
                     <div className="title-text centred mb_100">
@@ -28,7 +34,7 @@ export default function Portfolio_Four() {
                             <div className="col-lg-6 col-md-12 col-sm-12 portfolio-block">
                                 <div className="portfolio-block-four">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/portfolio/portfolio-24.jpg" alt=""/></figure>
+                                        <figure className="image-box"><img src="/assets/images/portfolio/portfolio-24.jpg" alt=""/></figure>
                                         <div className="lower-content">
                                             <ul className="category-list">
                                                 <li><Link href="/portfolio-4">Logo</Link></li>
@@ -41,7 +47,7 @@ export default function Portfolio_Four() {
                                 </div>
                                 <div className="portfolio-block-four">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/portfolio/portfolio-25.jpg" alt=""/></figure>
+                                        <figure className="image-box"><img src="/assets/images/portfolio/portfolio-25.jpg" alt=""/></figure>
                                         <div className="lower-content">
                                             <ul className="category-list">
                                                 <li><Link href="/portfolio-4">Branding</Link></li>
@@ -54,7 +60,7 @@ export default function Portfolio_Four() {
                                 </div>
                                 <div className="portfolio-block-four">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/portfolio/portfolio-26.jpg" alt=""/></figure>
+                                        <figure className="image-box"><img src="/assets/images/portfolio/portfolio-26.jpg" alt=""/></figure>
                                         <div className="lower-content">
                                             <ul className="category-list">
                                                 <li><Link href="/portfolio-4">BANNER</Link></li>
@@ -69,7 +75,7 @@ export default function Portfolio_Four() {
                             <div className="col-lg-6 col-md-12 col-sm-12 portfolio-block">
                                 <div className="portfolio-block-four">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/portfolio/portfolio-27.jpg" alt=""/></figure>
+                                        <figure className="image-box"><img src="/assets/images/portfolio/portfolio-27.jpg" alt=""/></figure>
                                         <div className="lower-content">
                                             <ul className="category-list">
                                                 <li><Link href="/portfolio-4">Mobile</Link></li>
@@ -82,7 +88,7 @@ export default function Portfolio_Four() {
                                 </div>
                                 <div className="portfolio-block-four">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/portfolio/portfolio-28.jpg" alt=""/></figure>
+                                        <figure className="image-box"><img src="/assets/images/portfolio/portfolio-28.jpg" alt=""/></figure>
                                         <div className="lower-content">
                                             <ul className="category-list">
                                                 <li><Link href="/portfolio-4">BANNER</Link></li>
@@ -95,7 +101,7 @@ export default function Portfolio_Four() {
                                 </div>
                                 <div className="portfolio-block-four">
                                     <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/portfolio/portfolio-29.jpg" alt=""/></figure>
+                                        <figure className="image-box"><img src="/assets/images/portfolio/portfolio-29.jpg" alt=""/></figure>
                                         <div className="lower-content">
                                             <ul className="category-list">
                                                 <li><Link href="/portfolio-4">Mobile</Link></li>
@@ -113,12 +119,12 @@ export default function Portfolio_Four() {
             </section>
             
             <section className="discuss-section centred">
-                <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-67.png)" }}></div>
-                <div className="dark-pattern" style={{ backgroundImage: "url(assets/images/shape/shape-68.png)" }}></div>
-                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-69.png)" }}></div>
-                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-70.png)" }}></div>
-                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-71.png)" }}></div>
-                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(assets/images/shape/shape-72.png)" }}></div>
+                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-67.png)" }}></div>
+                <div className="dark-pattern" style={{ backgroundImage: "url(/assets/images/shape/shape-68.png)" }}></div>
+                <div className="pattern-2 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-69.png)" }}></div>
+                <div className="pattern-2-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-70.png)" }}></div>
+                <div className="pattern-3 rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-71.png)" }}></div>
+                <div className="pattern-3-light rotate-me" style={{ backgroundImage: "url(/assets/images/shape/shape-72.png)" }}></div>
                 <div className="auto-container">
                     <div className="content-box sec-title-animation animation-style2">
                         <h1 className="title-animation">So, you have a <br /><span>project.</span> We can take make it <span>awesome</span></h1>

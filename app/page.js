@@ -9,6 +9,11 @@ import Testimonial from "@/components/sections/home/Testimonial"
 import Discuss from "@/components/sections/home/Discuss"
 import OurProcess from "@/components/sections/home/Our_Process"
 
+export const metadata = {
+    title: 'Neen Inovations | One-stop solution for market & academic research',
+    description: 'one-stop solution for market & academic research',
+}
+
 export default function Home() {
 
     return (

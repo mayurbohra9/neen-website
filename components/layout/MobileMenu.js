@@ -29,18 +29,18 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                     <div className="menu-outer">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="navigation clearfix">
-                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/index-5">Home</Link></li>
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/about-4">About</Link></li>
+                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/">Home</Link></li>
+                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/about">About</Link></li>
                                 {/* <li className={isActive.key == 3 ? "dropdown current" : "dropdown"}><Link href="/portfolio-4">Work</Link></li> */}
-                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/marketing-insights-&-evaluation-service">Services</Link>
+                                <li className={isActive.key == 4 ? "dropdown current" : "dropdown"}><Link href="/services">Services</Link>
                                     <ul style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                                        <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
-                                        <li><Link href="/academic-&-writing-services-service">Academic & Writing Services</Link></li>
-                                        <li><Link href="/academic-&-writing-services-service">Data-driven Strategy & Reports</Link></li>
-                                        <li><Link href="/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
-                                        <li><Link href="/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
-                                        <li><Link href="/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
-                                        <li><Link href="/website-&-app-development-service">Website & App Development</Link></li>
+                                        <li><Link href="/service-details/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
+                                        <li><Link href="/service-details/academic-&-writing-services-service">Academic & Writing Services</Link></li>
+                                        <li><Link href="/service-details/data-driven-strategy-&-reports-service">Data-driven Strategy & Reports</Link></li>
+                                        <li><Link href="/service-details/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
+                                        <li><Link href="/service-details/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                                        <li><Link href="/service-details/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
+                                        <li><Link href="/service-details/website-&-app-development-service">Website & App Development</Link></li>
                                          
                                     </ul>
                                     <div className={isActive.key == 4 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(4)}><span className="fa fa-angle-right" /></div>

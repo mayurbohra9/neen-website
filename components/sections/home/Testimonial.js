@@ -7,7 +7,7 @@ export default function Testimonial(){
 
         <section className="testimonial-style-five pb_150">
             <div className="parallax-scene parallax-scene-2 anim-icons">
-                <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-65.png)" }}></div>
+                <div className="pattern-layer" style={{ backgroundImage: "url(/assets/images/shape/shape-65.png)" }}></div>
             </div>
             <div className="outer-container">
                 <div className="row align-items-center">
@@ -16,7 +16,7 @@ export default function Testimonial(){
                             <div className="testimonial-block-three" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                                 <div className="inner-box">
                                     <figure className="clients-logo-text">FreshBite Organics Pvt. Ltd.</figure>
-                                    {/* <figure className="clients-logo"><img src="assets/images/clients/clients-16.png" alt=""/>ddd</figure> */}
+                                    {/* <figure className="clients-logo"><img src="/assets/images/clients/clients-16.png" alt=""/>ddd</figure> */}
                                     <p>“Neen Innovations unlocked key insights, growing FreshBite Organics’ customer reach”</p>
                                     <div className="lower-content">
                                         <h3>4.7 Excellent</h3>
@@ -33,7 +33,7 @@ export default function Testimonial(){
                             <div className="testimonial-block-three" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                                 <div className="inner-box">
                                     <figure className="clients-logo-text">UrbanEdge Retail Solutions</figure>
-                                    {/* <figure className="clients-logo"><img src="assets/images/clients/clients-17.png" alt=""/></figure> */}
+                                    {/* <figure className="clients-logo"><img src="/assets/images/clients/clients-17.png" alt=""/></figure> */}
                                     <p>“Thanks to Neen Innovations, UrbanEdge Retail found new growth markets.”</p>
                                     <div className="lower-content">
                                         <h3>4.8 Excellent</h3>
@@ -50,7 +50,7 @@ export default function Testimonial(){
                             <div className="testimonial-block-three" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                                 <div className="inner-box">
                                     <figure className="clients-logo-text">SwiftLogix Logistics Pvt. Ltd.</figure>
-                                    {/* <figure className="clients-logo"><img src="assets/images/clients/clients-18.png" alt=""/></figure> */}
+                                    {/* <figure className="clients-logo"><img src="/assets/images/clients/clients-18.png" alt=""/></figure> */}
                                     <p>“Neen Innovations’ research guided SwiftLogix Logistics towards smarter expansion decisions.”</p>
                                     <div className="lower-content">
                                         <h3>5.0 Excellent</h3>

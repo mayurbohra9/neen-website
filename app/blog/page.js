@@ -3,7 +3,13 @@ import Layout from "@/components/layout/Layout"
 import "app/favicon.ico"
 import Link from "next/link"
 
+import { useEffect } from "react";
+
 export default function Blog() {
+
+useEffect(() => {
+    document.title = "Blog | Neen Inovations | One-stop solution for market & academic research";
+  }, []);
 
 
     return (
@@ -20,13 +26,13 @@ export default function Blog() {
                             <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                 <div className="news-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details-1"><img src="assets/images/resource/blog-1.2.png" alt=""/></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details/market-research-blog"><img src="/assets/images/resource/blog-1.2.png" alt=""/></Link></figure>
                                         <div className="lower-content">
                                             <ul className="post-info mb_14">
                                                 <li>01 Jul 2025</li>
                                                 {/* <li>3 Comments</li> */}
                                             </ul>
-                                            <h3><Link href="/blog-details-1">Why Market Research is the Cornerstone of Smart Business Decisions.</Link></h3>
+                                            <h3><Link href="/blog-details/market-research-blog">Why Market Research is the Cornerstone of Smart Business Decisions.</Link></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -34,13 +40,13 @@ export default function Blog() {
                             <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                 <div className="news-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details-2"><img src="assets/images/resource/blog-2.2.jpg" alt=""/></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details/building-digital-foundations-blog"><img src="/assets/images/resource/blog-2.2.jpg" alt=""/></Link></figure>
                                         <div className="lower-content">
                                             <ul className="post-info mb_14">
                                                 <li>20 Feb 2025</li>
                                                 {/* <li>0 Comments</li> */}
                                             </ul>
-                                            <h3><Link href="/blog-details-2">Building Digital Foundations: The Art of Website & App Development.</Link></h3>
+                                            <h3><Link href="/blog-details/building-digital-foundations-blog">Building Digital Foundations: The Art of Website & App Development.</Link></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -48,13 +54,13 @@ export default function Blog() {
                             <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                 <div className="news-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details-3"><img src="assets/images/resource/blog-3.2.jpeg" alt=""/></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details/design-that-speaks-blog"><img src="/assets/images/resource/blog-3.2.jpeg" alt=""/></Link></figure>
                                         <div className="lower-content">
                                             <ul className="post-info mb_14">
                                                 <li>10 May 2025</li>
                                                 {/* <li>4 Comments</li> */}
                                             </ul>
-                                            <h3><Link href="/blog-details-3">Design That Speaks: The Role of UI/UX & Visual Content in Digital Success.</Link></h3>
+                                            <h3><Link href="/blog-details/design-that-speaks-blog">Design That Speaks: The Role of UI/UX & Visual Content in Digital Success.</Link></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +68,7 @@ export default function Blog() {
                             {/* <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                 <div className="news-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-8.jpg" alt=""/></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-8.jpg" alt=""/></Link></figure>
                                         <div className="lower-content">
                                             <ul className="post-info mb_14">
                                                 <li>15 Jul 2018</li>
@@ -76,7 +82,7 @@ export default function Blog() {
                             <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                 <div className="news-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="800">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-9.jpg" alt=""/></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-9.jpg" alt=""/></Link></figure>
                                         <div className="lower-content">
                                             <ul className="post-info mb_14">
                                                 <li>14 Jul 2018</li>
@@ -90,7 +96,7 @@ export default function Blog() {
                             <div className="col-lg-4 col-md-6 col-sm-12 news-block">
                                 <div className="news-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="900">
                                     <div className="inner-box">
-                                        <figure className="image-box"><Link href="/blog-details"><img src="assets/images/news/news-10.jpg" alt=""/></Link></figure>
+                                        <figure className="image-box"><Link href="/blog-details"><img src="/assets/images/news/news-10.jpg" alt=""/></Link></figure>
                                         <div className="lower-content">
                                             <ul className="post-info mb_14">
                                                 <li>13 Jul 2018</li>

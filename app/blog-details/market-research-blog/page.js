@@ -3,7 +3,13 @@ import Layout from "@/components/layout/Layout"
 import "app/favicon.ico"
 import Link from "next/link"
 
+import { useEffect } from "react";
+
 export default function Blog_Details() {
+
+    useEffect(() => {
+    document.title = "Why Market Research is the Cornerstone of Smart Business Decisions | Neen Inovations | One-stop solution for market & academic research";
+  }, []);
 
 
     return (
@@ -21,37 +27,36 @@ export default function Blog_Details() {
                                             {/* <li><Link href="/blog-details">Jonas</Link></li> */}
                                             {/* <li>2 Comments</li> */}
                                         </ul>
-                                        <h2>Building Digital Foundations: The Art of Website & App Development.</h2>
+                                        <h2>Why Market Research is the Cornerstone of Smart Business Decisions.</h2>
                                     </div>
                                     <div className="image-box mb_50">
-                                        <span className="post-date">20 Feb 2025</span>
-                                        <figure className="image"><img src="assets/images/resource/blog-2.2.jpg" alt=""/></figure>
+                                        <span className="post-date">01 Jul 2025</span>
+                                        <figure className="image"><img src="/assets/images/resource/blog-1.2.png" alt=""/></figure>
                                     </div>
                                     <div className="text-box">
-                                        <p>In an era where the first impression of a brand is often digital, having a powerful online presence is not just an option—it's a necessity. Website and app development has evolved from simple coding tasks into a strategic process that bridges business goals with seamless user experiences. The development of an intuitive website or mobile application lays the foundation for customer engagement, sales conversions, and brand loyalty.</p>
-
-                                        <p>Modern web and app development starts with understanding the core purpose of the platform. Is it to inform, sell, entertain, or connect? Once the goal is defined, the technical architecture, UI/UX design, backend integrations, and performance optimization come into play. Today’s users demand fast, responsive, and clean interfaces. This means developers must balance functionality with aesthetics, ensuring every page load, button tap, or form fill works flawlessly across all devices.</p>
+                                        <p>In today’s dynamic and highly competitive business environment, the power of informed decision-making cannot be overstated. Market research plays a pivotal role in shaping strategies, minimizing risks, and uncovering emerging opportunities. It provides a structured way of gathering, analyzing, and interpreting data related to a particular market, including insights about target audiences, competitors, industry trends, and customer behavior. Businesses—whether startups or industry giants—rely on well-executed research to understand where their products or services stand and how they can innovate to meet real-world demands.</p>
 
                                         <p>
-                                            Security and scalability are also integral to any digital product. With rising cyber threats, secure coding practices, regular updates, and encrypted data handling are essential. For businesses anticipating growth, scalable development ensures their platforms can handle increasing traffic and data without compromising performance.
+                                            By identifying market gaps and consumer expectations, research enables companies to position themselves more effectively. It also assists in forecasting trends, refining marketing strategies, and ensuring resource allocation is efficient. Furthermore, it’s not only limited to pre-launch studies; ongoing market analysis allows brands to stay agile, adapt to shifts, and sustain relevance in evolving environments.
                                         </p>
 
                                         <p>
-                                            Moreover, development doesn’t stop at deployment. Post-launch analytics, performance tracking, user feedback, and regular iterations are part of a sustainable growth loop. Agile methodology and DevOps practices enable quick changes and bug fixes, reducing downtime and enhancing the overall user experience.
+                                            Good research does more than inform—it empowers. It transforms guesswork into strategy. Tools like surveys, interviews, focus groups, and secondary data analysis, when implemented properly, generate actionable insights. These insights are then used across functions: from product design to marketing campaigns to customer service enhancements.
                                         </p>
 
+
                                         <p>
-                                            In the end, great development is about creating digital ecosystems that feel human. When done right, users don’t notice the tech—they just feel understood.
+                                            In a digital world where customer expectations evolve rapidly, market research ensures that business decisions are driven by data, not assumptions. Those who ignore it often find themselves reactive rather than proactive. Today, research firms go beyond data collection—they provide strategic consulting to translate research into impact. Whether it’s launching a product or expanding into a new geography, every successful move begins with insight.
                                         </p>
                                     </div>
                                 </div>
                                 <blockquote>
                                     <div className="icon-box"><i className="icon-23"></i></div>
-                                    <h2>Code builds the structure, but user experience defines the soul.</h2>
+                                    <h2>Informed decisions aren’t lucky guesses—they’re results of great research.</h2>
                                     {/* <h4>James Bond. <span>Laywer</span></h4> */}
                                 </blockquote>
                                 {/* <div className="content-two mb_60">
-                                    <figure className="image-box mb_50"><img src="assets/images/news/news-28.jpg" alt=""/></figure>
+                                    <figure className="image-box mb_50"><img src="/assets/images/news/news-28.jpg" alt=""/></figure>
                                     <div className="text-box">
                                         <h2>Crime is Not An Art.</h2>
                                         <p>One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in quis elit future. The same Duis aute irure dolor in reprehenderit . One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in quis elit future. The same Duis aute irure dolor in reprehe. in culpa qui official deserunt mollit anim</p>
@@ -77,14 +82,14 @@ export default function Blog_Details() {
                                     <h2>Comments</h2>
                                     <div className="comment-inner">
                                         <div className="comment">
-                                            <figure className="thumb-box"><img src="assets/images/news/comment-1.jpg" alt=""/></figure>
+                                            <figure className="thumb-box"><img src="/assets/images/news/comment-1.jpg" alt=""/></figure>
                                             <h4>Kudilum Ahus</h4>
                                             <p>Sunt in culpa qui official deserunt mollit anim id est laborum.Suspendisse interdum consectetur libero id faucib nisl. Lacus vel facilisis volutpat est velit egestas.</p>
                                             <span className="comment-time">13 June, 23, 7:30pm</span>
                                             <Link href="/blog-details" className="reply-btn">Reply</Link>
                                         </div>
                                         <div className="comment">
-                                            <figure className="thumb-box"><img src="assets/images/news/comment-2.jpg" alt=""/></figure>
+                                            <figure className="thumb-box"><img src="/assets/images/news/comment-2.jpg" alt=""/></figure>
                                             <h4>Jubayer Al Hasan</h4>
                                             <p>Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Sit amet ris nullam eget felis.</p>
                                             <span className="comment-time">11 June, 23, 4:30pm</span>
