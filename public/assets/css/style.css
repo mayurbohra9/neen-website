@@ -5179,7 +5179,7 @@ body.out .mouse-pointer {
 @media only screen and (max-width: 599px){
   .about-style-four .content-box .link-box,
   .discuss-section .content-box .link-box{
-    border-radius: 0px;
+    border-radius: 30px;
     padding-left: 30px;
     padding-right: 30px;
   }

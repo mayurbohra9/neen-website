@@ -73,7 +73,7 @@ export default function Banner(){
                         <div className="large-container">
                             <div className="content-box">
                                 <div className="text-box">
-                                    <h2>Research. Insight. Strategy.</h2>
+                                    <h2>Research. Insight. Strategy. Execution. Impact.</h2>
                                     <p>One-stop solution for market & academic research.</p>
                                     <div className="btn-box p_relative">
                                         <Link href="/contact" className="theme-btn"><span>Let’s Talk</span></Link>
