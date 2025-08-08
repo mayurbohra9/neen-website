@@ -8,8 +8,8 @@ export default function Footer() {
                 <div className="row clearfix">
                     <div className="col-lg-6 col-md-12 col-sm-12 footer-column">
                         <div className="footer-widget logo-widget" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="700">
-                            <figure className="footer-logo mb_25"><Link href="/"><img src="/assets/images/neen-black.jpg" alt=""/></Link></figure>
-                            <figure className="footer-logo-light mb_25"><Link href="/"><img src="/assets/images/neen-white.jpg" alt=""/></Link></figure>
+                            <figure className="footer-logo mb_25"><Link href="/"><img src="/assets/images/neen-black.jpeg" alt=""/></Link></figure>
+                            <figure className="footer-logo-light mb_25"><Link href="/"><img src="/assets/images/neen-white.jpeg" alt=""/></Link></figure>
                             <h2>Get, quality business research & growth.</h2>
                             <div className="copyright mt_55"><p><span>&copy; {new Date().getFullYear()}</span> All Right Reserved. </p></div>
                         </div>
