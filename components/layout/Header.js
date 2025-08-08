@@ -12,8 +12,8 @@ export default function Header5({ scroll, handleMobileMenu, isSidebar, handleSid
             <div className="header-lower">
                 <div className="outer-box">
                     <div className="logo-box">                        
-                        <figure className="light-logo"><Link href="/"><img src="neen-black.png" alt=""/></Link></figure>
-                        <figure className="dark-logo"><Link href="/"><img src="neen-white.png" alt=""/></Link></figure>
+                        <figure className="light-logo"><Link href="/"><img src="/assets/images/service/service-4.jpg" alt=""/></Link></figure>
+                        <figure className="dark-logo"><Link href="/"><img src="/assets/images/neen-white.png" alt=""/></Link></figure>
                     </div>
                     <div className="menu-area">
                         <nav className="main-menu navbar-expand-md navbar-light">
