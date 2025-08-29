@@ -38,7 +38,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                                         <li><Link href="/service-details/academic-&-writing-services-service">Academic & Writing Services</Link></li>
                                         <li><Link href="/service-details/data-driven-strategy-&-reports-service">Data-driven Strategy & Reports</Link></li>
                                         <li><Link href="/service-details/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
-                                        <li><Link href="/service-details/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                                        <li><Link href="/service-details/ui-ux-&-visual-content-service">UI/UX & Visual Content</Link></li>
                                         <li><Link href="/service-details/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
                                         <li><Link href="/service-details/website-&-app-development-service">Website & App Development</Link></li>
                                          

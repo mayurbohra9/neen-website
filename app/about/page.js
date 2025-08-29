@@ -116,7 +116,7 @@ useEffect(() => {
                                 <div className="inner-box">
                                     <div className="shape" style={{ backgroundImage: "url(/assets/images/shape/shape-56.png)" }}></div>
                                     <div className="icon-box"><i className="icon-18"></i></div>
-                                    <h3><Link href="/service-details/ui-ux-&-visual-ontent-service">UI/UX & Visual Content.</Link></h3>
+                                    <h3><Link href="/service-details/ui-ux-&-visual-content-service">UI/UX & Visual Content.</Link></h3>
                                     <p>Sketch Noting, Visual Reports</p>
                                 </div>
                             </div>

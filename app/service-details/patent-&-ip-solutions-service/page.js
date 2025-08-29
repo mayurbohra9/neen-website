@@ -129,11 +129,11 @@ export default function Service_Details_one() {
                                     <div className="sidebar-shape" style={{ backgroundImage: "url(/assets/images/shape/shape-168.png)" }}></div>
                                     <h3>Services</h3>
                                     <ul className="category-list clearfix">
-                                         <li><Link href="/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
+                                         <li><Link href="/service-details/custom-research-&-consulting-service">Custom Research & Consulting</Link></li>
                         <li><Link href="/service-details/academic-&-writing-services-service">Academic & Writing Services</Link></li>
                         <li><Link href="/service-details/data-driven-strategy-&-reports-service">Data-driven Strategy & Reports</Link></li>
                         <li><Link href="/service-details/marketing-insights-&-evaluation-service">Marketing Insights & Evaluation</Link></li>
-                        <li><Link href="/service-details/ui-ux-&-visual-ontent-service">UI/UX & Visual Content</Link></li>
+                        <li><Link href="/service-details/ui-ux-&-visual-content-service">UI/UX & Visual Content</Link></li>
                         <li><Link href="/service-details/patent-&-ip-solutions-service">Patent & IP Solutions</Link></li>
                         <li><Link href="/service-details/website-&-app-development-service">Website & App Development</Link></li>
                                     </ul>
