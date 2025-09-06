@@ -1,6 +1,6 @@
 import "@/node_modules/react-modal-video/css/modal-video.css"
 import Aos_Animation from "@/components/elements/AosAnimation"
-import ToggleBodyClass from "@/components/elements/Togglebtn"
+// import ToggleBodyClass from "@/components/elements/Togglebtn"
 import "public/assets/css/bootstrap.css"
 import "public/assets/css/color.css"
 import "public/assets/css/aos.css"
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <html lang="en" className={`${Outfit_title.variable}`}>
             <body>
                 <Aos_Animation/>
-                <ToggleBodyClass/>
+                {/* <ToggleBodyClass/> */}
                 {children}
             </body>
         </html>
